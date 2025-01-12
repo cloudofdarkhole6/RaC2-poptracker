@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Aranos",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Aranos.png"
+    },
+    {
+        "name": "Barlow",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Barlow.png"
+    },
+    {
+        "name": "Boldan",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Boldan.png"
+    },
+    {
+        "name": "Damosel",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Damosel.png"
+    },
+    {
+        "name": "Dobbo",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Dobbo.png"
+    },
+    {
+        "name": "Endako",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Endako.png"
+    },
+    {
+        "name": "Feltzin",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Feltzin.png"
+    },
+    {
+        "name": "Gorn",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Gorn.png"
+    },
+    {
+        "name": "Grelbin",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Grelbin.png"
+    },
+    {
+        "name": "Hrugis Cloud",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Hrugis Cloud.png"
+    },
+    {
+        "name": "Joba",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Joba.png"
+    },
+    {
+        "name": "Maktar",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Maktar.png"
+    },
+    {
+        "name": "Notak",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Notak.png"
+    },
+    {
+        "name": "Oozla",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Oozla.png"
+    },
+    {
+        "name": "Siberius",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Siberius.png"
+    },
+    {
+        "name": "Smolg",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Smolg.png"
+    },
+    {
+        "name": "Snivelak",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Snivelak.png"
+    },
+    {
+        "name": "Tabora",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Tabora.png"
+    },
+    {
+        "name": "Todano",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Todano.png"
+    },
+    {
+        "name": "Yeedil",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Yeedil.png"
+    }
+]

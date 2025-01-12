@@ -1,0 +1,653 @@
+[
+    {
+        "name": "aranos_under_ship_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/aranos_under_ship_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "aranos_under_ship_platinum_bolt"
+    },
+    {
+        "name": "boldan_floating_platform_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/boldan_floating_platform_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "boldan_floating_platform_platinum_bolt"
+    },
+    {
+        "name": "oozla_megacorp_scientist_tractor_beam",
+        "type": "toggle",
+        "img": "images/items/oozla_megacorp_scientist_tractor_beam.png",
+        "img_mods": "",
+        "codes": "oozla_megacorp_scientist_tractor_beam"
+    },
+    {
+        "name": "aranos_plumber_qwark_statuette",
+        "type": "toggle",
+        "img": "images/items/aranos_plumber_qwark_statuette.png",
+        "img_mods": "",
+        "codes": "aranos_plumber_qwark_statuette"
+    },
+    {
+        "name": "damosel_defeat_mothership_mapper",
+        "type": "toggle",
+        "img": "images/items/damosel_defeat_mothership_mapper.png",
+        "img_mods": "",
+        "codes": "damosel_defeat_mothership_mapper"
+    },
+    {
+        "name": "smolg_floating_platform_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/smolg_floating_platform_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "smolg_floating_platform_platinum_bolt"
+    },
+    {
+        "name": "todano_near_stuart_zurgo_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/todano_near_stuart_zurgo_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "todano_near_stuart_zurgo_platinum_bolt"
+    },
+    {
+        "name": "todano_search_rocket_silo",
+        "type": "toggle",
+        "img": "images/items/todano_search_rocket_silo.png",
+        "img_mods": "",
+        "codes": "todano_search_rocket_silo"
+    },
+    {
+        "name": "feltzin_cargo_bay_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/feltzin_cargo_bay_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "feltzin_cargo_bay_nanotech_boost"
+    },
+    {
+        "name": "notak_behind_building_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/notak_behind_building_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "notak_behind_building_platinum_bolt"
+    },
+    {
+        "name": "maktar_deactivate_jamming_array",
+        "type": "toggle",
+        "img": "images/items/maktar_deactivate_jamming_array.png",
+        "img_mods": "",
+        "codes": "maktar_deactivate_jamming_array"
+    },
+    {
+        "name": "joba_arena_cage_match_infiltrator",
+        "type": "toggle",
+        "img": "images/items/joba_arena_cage_match_infiltrator.png",
+        "img_mods": "",
+        "codes": "joba_arena_cage_match_infiltrator"
+    },
+    {
+        "name": "siberius_defeat_thief",
+        "type": "toggle",
+        "img": "images/items/siberius_defeat_thief.png",
+        "img_mods": "",
+        "codes": "siberius_defeat_thief"
+    },
+    {
+        "name": "siberius_flamebot_ledge_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/siberius_flamebot_ledge_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "siberius_flamebot_ledge_platinum_bolt"
+    },
+    {
+        "name": "tabora_northeast_desert_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/tabora_northeast_desert_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "tabora_northeast_desert_platinum_bolt"
+    },
+    {
+        "name": "maktar_photo_booth",
+        "type": "toggle",
+        "img": "images/items/maktar_photo_booth.png",
+        "img_mods": "",
+        "codes": "maktar_photo_booth"
+    },
+    {
+        "name": "endako_crane_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/endako_crane_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "endako_crane_nanotech_boost"
+    },
+    {
+        "name": "oozla_outside_megacorp_store_dynamo",
+        "type": "toggle",
+        "img": "images/items/oozla_outside_megacorp_store_dynamo.png",
+        "img_mods": "",
+        "codes": "oozla_outside_megacorp_store_dynamo"
+    },
+    {
+        "name": "tabora_underground_mines_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/tabora_underground_mines_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "tabora_underground_mines_platinum_bolt"
+    },
+    {
+        "name": "joba_shady_salesman_levitator",
+        "type": "toggle",
+        "img": "images/items/joba_shady_salesman_levitator.png",
+        "img_mods": "",
+        "codes": "joba_shady_salesman_levitator"
+    },
+    {
+        "name": "feltzin_race_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/feltzin_race_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "feltzin_race_platinum_bolt"
+    },
+    {
+        "name": "barlow_hound_cave_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/barlow_hound_cave_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "barlow_hound_cave_platinum_bolt"
+    },
+    {
+        "name": "joba_arena_battle_gravity_boots",
+        "type": "toggle",
+        "img": "images/items/joba_arena_battle_gravity_boots.png",
+        "img_mods": "",
+        "codes": "joba_arena_battle_gravity_boots"
+    },
+    {
+        "name": "barlow_inventor_thermanator",
+        "type": "toggle",
+        "img": "images/items/barlow_inventor_thermanator.png",
+        "img_mods": "",
+        "codes": "barlow_inventor_thermanator"
+    },
+    {
+        "name": "damosel_train_rails_hypnomatic_part",
+        "type": "toggle",
+        "img": "images/items/damosel_train_rails_hypnomatic_part.png",
+        "img_mods": "",
+        "codes": "damosel_train_rails_hypnomatic_part"
+    },
+    {
+        "name": "tabora_underground_mines_glider",
+        "type": "toggle",
+        "img": "images/items/tabora_underground_mines_glider.png",
+        "img_mods": "",
+        "codes": "tabora_underground_mines_glider"
+    },
+    {
+        "name": "joba_hoverbike_race_shortcut_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/joba_hoverbike_race_shortcut_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "joba_hoverbike_race_shortcut_nanotech_boost"
+    },
+    {
+        "name": "endako_rescue_clank_heli-pack",
+        "type": "toggle",
+        "img": "images/items/endako_rescue_clank_heli-pack.png",
+        "img_mods": "",
+        "codes": "endako_rescue_clank_heli-pack"
+    },
+    {
+        "name": "aranos_control_room",
+        "type": "toggle",
+        "img": "images/items/aranos_control_room.png",
+        "img_mods": "",
+        "codes": "aranos_control_room"
+    },
+    {
+        "name": "todano_end_of_tour_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/todano_end_of_tour_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "todano_end_of_tour_platinum_bolt"
+    },
+    {
+        "name": "boldan_fountain_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/boldan_fountain_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "boldan_fountain_nanotech_boost"
+    },
+    {
+        "name": "maktar_arena_challenge_electrolyzer",
+        "type": "toggle",
+        "img": "images/items/maktar_arena_challenge_electrolyzer.png",
+        "img_mods": "",
+        "codes": "maktar_arena_challenge_electrolyzer"
+    },
+    {
+        "name": "snivelak_dynamo_platforms_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/snivelak_dynamo_platforms_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "snivelak_dynamo_platforms_platinum_bolt"
+    },
+    {
+        "name": "joba_timed_dynamo_course_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/joba_timed_dynamo_course_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "joba_timed_dynamo_course_nanotech_boost"
+    },
+    {
+        "name": "joba_first_hoverbike_race_charge_boots",
+        "type": "toggle",
+        "img": "images/items/joba_first_hoverbike_race_charge_boots.png",
+        "img_mods": "",
+        "codes": "joba_first_hoverbike_race_charge_boots"
+    },
+    {
+        "name": "hrugis_cloud_destroy_defenses",
+        "type": "toggle",
+        "img": "images/items/hrugis_cloud_destroy_defenses.png",
+        "img_mods": "",
+        "codes": "hrugis_cloud_destroy_defenses"
+    },
+    {
+        "name": "oozla_end_of_store_cutscene",
+        "type": "toggle",
+        "img": "images/items/oozla_end_of_store_cutscene.png",
+        "img_mods": "",
+        "codes": "oozla_end_of_store_cutscene"
+    },
+    {
+        "name": "endako_ledge_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/endako_ledge_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "endako_ledge_platinum_bolt"
+    },
+    {
+        "name": "hrugis_cloud_race_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/hrugis_cloud_race_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "hrugis_cloud_race_platinum_bolt"
+    },
+    {
+        "name": "gorn_defeat_thug_fleet",
+        "type": "toggle",
+        "img": "images/items/gorn_defeat_thug_fleet.png",
+        "img_mods": "",
+        "codes": "gorn_defeat_thug_fleet"
+    },
+    {
+        "name": "todano_stuart_zurgo_trade_armor_magnetizer",
+        "type": "toggle",
+        "img": "images/items/todano_stuart_zurgo_trade_armor_magnetizer.png",
+        "img_mods": "",
+        "codes": "todano_stuart_zurgo_trade_armor_magnetizer"
+    },
+    {
+        "name": "yeedil_tractor_pillar_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/yeedil_tractor_pillar_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "yeedil_tractor_pillar_platinum_bolt"
+    },
+    {
+        "name": "boldan_spiderbot_alley_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/boldan_spiderbot_alley_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "boldan_spiderbot_alley_platinum_bolt"
+    },
+    {
+        "name": "barlow_hoverbike_race_transmission",
+        "type": "toggle",
+        "img": "images/items/barlow_hoverbike_race_transmission.png",
+        "img_mods": "",
+        "codes": "barlow_hoverbike_race_transmission"
+    },
+    {
+        "name": "damosel_pyramid_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/damosel_pyramid_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "damosel_pyramid_platinum_bolt"
+    },
+    {
+        "name": "endako_crane_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/endako_crane_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "endako_crane_platinum_bolt"
+    },
+    {
+        "name": "grelbin_underwater_tunnel_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/grelbin_underwater_tunnel_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "grelbin_underwater_tunnel_platinum_bolt"
+    },
+    {
+        "name": "grelbin_mystic_more_moonstones_hypnomatic_part",
+        "type": "toggle",
+        "img": "images/items/grelbin_mystic_more_moonstones_hypnomatic_part.png",
+        "img_mods": "",
+        "codes": "grelbin_mystic_more_moonstones_hypnomatic_part"
+    },
+    {
+        "name": "notak_top_of_pier_telescreen",
+        "type": "toggle",
+        "img": "images/items/notak_top_of_pier_telescreen.png",
+        "img_mods": "",
+        "codes": "notak_top_of_pier_telescreen"
+    },
+    {
+        "name": "damosel_frozen_fountain_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/damosel_frozen_fountain_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "damosel_frozen_fountain_platinum_bolt"
+    },
+    {
+        "name": "smolg_distribution_facility_end_hypnomatic_part",
+        "type": "toggle",
+        "img": "images/items/smolg_distribution_facility_end_hypnomatic_part.png",
+        "img_mods": "",
+        "codes": "smolg_distribution_facility_end_hypnomatic_part"
+    },
+    {
+        "name": "smolg_warehouse_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/smolg_warehouse_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "smolg_warehouse_platinum_bolt"
+    },
+    {
+        "name": "smolg_mutant_crab",
+        "type": "toggle",
+        "img": "images/items/smolg_mutant_crab.png",
+        "img_mods": "",
+        "codes": "smolg_mutant_crab"
+    },
+    {
+        "name": "oozla_swamp_monster_ii_box_breaker",
+        "type": "toggle",
+        "img": "images/items/oozla_swamp_monster_ii_box_breaker.png",
+        "img_mods": "",
+        "codes": "oozla_swamp_monster_ii_box_breaker"
+    },
+    {
+        "name": "notak_promenade_end_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/notak_promenade_end_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "notak_promenade_end_nanotech_boost"
+    },
+    {
+        "name": "snivelak_rescue_angela",
+        "type": "toggle",
+        "img": "images/items/snivelak_rescue_angela.png",
+        "img_mods": "",
+        "codes": "snivelak_rescue_angela"
+    },
+    {
+        "name": "snivelak_swingshot_tower_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/snivelak_swingshot_tower_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "snivelak_swingshot_tower_nanotech_boost"
+    },
+    {
+        "name": "notak_timed_dynamo_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/notak_timed_dynamo_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "notak_timed_dynamo_platinum_bolt"
+    },
+    {
+        "name": "yeedil_bridge_grindrail_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/yeedil_bridge_grindrail_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "yeedil_bridge_grindrail_platinum_bolt"
+    },
+    {
+        "name": "dobbo_facility_terminal",
+        "type": "toggle",
+        "img": "images/items/dobbo_facility_terminal.png",
+        "img_mods": "",
+        "codes": "dobbo_facility_terminal"
+    },
+    {
+        "name": "grelbin_find_angela",
+        "type": "toggle",
+        "img": "images/items/grelbin_find_angela.png",
+        "img_mods": "",
+        "codes": "grelbin_find_angela"
+    },
+    {
+        "name": "notak_promenade_sign_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/notak_promenade_sign_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "notak_promenade_sign_platinum_bolt"
+    },
+    {
+        "name": "notak_worker_bots",
+        "type": "toggle",
+        "img": "images/items/notak_worker_bots.png",
+        "img_mods": "",
+        "codes": "notak_worker_bots"
+    },
+    {
+        "name": "endako_rescue_clank_thruster-pack",
+        "type": "toggle",
+        "img": "images/items/endako_rescue_clank_thruster-pack.png",
+        "img_mods": "",
+        "codes": "endako_rescue_clank_thruster-pack"
+    },
+    {
+        "name": "todano_spiderbot_conveyor_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/todano_spiderbot_conveyor_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "todano_spiderbot_conveyor_platinum_bolt"
+    },
+    {
+        "name": "maktar_jamming_array_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/maktar_jamming_array_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "maktar_jamming_array_platinum_bolt"
+    },
+    {
+        "name": "grelbin_yeti_cave_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/grelbin_yeti_cave_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "grelbin_yeti_cave_platinum_bolt"
+    },
+    {
+        "name": "joba_hidden_cliff_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/joba_hidden_cliff_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "joba_hidden_cliff_platinum_bolt"
+    },
+    {
+        "name": "gorn_race_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/gorn_race_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "gorn_race_platinum_bolt"
+    },
+    {
+        "name": "tabora_canyon_glide_pillar_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/tabora_canyon_glide_pillar_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "tabora_canyon_glide_pillar_nanotech_boost"
+    },
+    {
+        "name": "boldan_upper_dome_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/boldan_upper_dome_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "boldan_upper_dome_platinum_bolt"
+    },
+    {
+        "name": "joba_levitator_tower_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/joba_levitator_tower_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "joba_levitator_tower_platinum_bolt"
+    },
+    {
+        "name": "endako_rescue_clank_hydro-pack",
+        "type": "toggle",
+        "img": "images/items/endako_rescue_clank_hydro-pack.png",
+        "img_mods": "",
+        "codes": "endako_rescue_clank_hydro-pack"
+    },
+    {
+        "name": "grelbin_ice_plains_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/grelbin_ice_plains_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "grelbin_ice_plains_platinum_bolt"
+    },
+    {
+        "name": "oozla_swamp_ruins_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/oozla_swamp_ruins_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "oozla_swamp_ruins_platinum_bolt"
+    },
+    {
+        "name": "barlow_hoverbike_race_biker_helmet",
+        "type": "toggle",
+        "img": "images/items/barlow_hoverbike_race_biker_helmet.png",
+        "img_mods": "",
+        "codes": "barlow_hoverbike_race_biker_helmet"
+    },
+    {
+        "name": "smolg_balloon_transmission",
+        "type": "toggle",
+        "img": "images/items/smolg_balloon_transmission.png",
+        "img_mods": "",
+        "codes": "smolg_balloon_transmission"
+    },
+    {
+        "name": "endako_clank's_apartment_swingshot",
+        "type": "toggle",
+        "img": "images/items/endako_clank's_apartment_swingshot.png",
+        "img_mods": "",
+        "codes": "endako_clank's_apartment_swingshot"
+    },
+    {
+        "name": "oozla_tractor_puzzle_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/oozla_tractor_puzzle_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "oozla_tractor_puzzle_platinum_bolt"
+    },
+    {
+        "name": "tabora_canyon_glide_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/tabora_canyon_glide_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "tabora_canyon_glide_platinum_bolt"
+    },
+    {
+        "name": "endako_clank's_apartment_grindboots",
+        "type": "toggle",
+        "img": "images/items/endako_clank's_apartment_grindboots.png",
+        "img_mods": "",
+        "codes": "endako_clank's_apartment_grindboots"
+    },
+    {
+        "name": "dobbo_facility_glide_beginning_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/dobbo_facility_glide_beginning_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "dobbo_facility_glide_beginning_nanotech_boost"
+    },
+    {
+        "name": "dobbo_facility_glide_end_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/dobbo_facility_glide_end_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "dobbo_facility_glide_end_platinum_bolt"
+    },
+    {
+        "name": "boldan_find_fizzwidget",
+        "type": "toggle",
+        "img": "images/items/boldan_find_fizzwidget.png",
+        "img_mods": "",
+        "codes": "boldan_find_fizzwidget"
+    },
+    {
+        "name": "dobbo_defeat_thug_leader",
+        "type": "toggle",
+        "img": "images/items/dobbo_defeat_thug_leader.png",
+        "img_mods": "",
+        "codes": "dobbo_defeat_thug_leader"
+    },
+    {
+        "name": "maktar_crane_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/maktar_crane_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "maktar_crane_platinum_bolt"
+    },
+    {
+        "name": "feltzin_defeat_thug_ships",
+        "type": "toggle",
+        "img": "images/items/feltzin_defeat_thug_ships.png",
+        "img_mods": "",
+        "codes": "feltzin_defeat_thug_ships"
+    },
+    {
+        "name": "todano_rocket_silo_nanotech_boost",
+        "type": "toggle",
+        "img": "images/items/todano_rocket_silo_nanotech_boost.png",
+        "img_mods": "",
+        "codes": "todano_rocket_silo_nanotech_boost"
+    },
+    {
+        "name": "dobbo_spiderbot_room_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/dobbo_spiderbot_room_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "dobbo_spiderbot_room_platinum_bolt"
+    },
+    {
+        "name": "barlow_hoverbike_race_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/barlow_hoverbike_race_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "barlow_hoverbike_race_platinum_bolt"
+    },
+    {
+        "name": "siberius_fenced_area_platinum_bolt",
+        "type": "toggle",
+        "img": "images/items/siberius_fenced_area_platinum_bolt.png",
+        "img_mods": "",
+        "codes": "siberius_fenced_area_platinum_bolt"
+    },
+    {
+        "name": "damosel_hypnotist",
+        "type": "toggle",
+        "img": "images/items/damosel_hypnotist.png",
+        "img_mods": "",
+        "codes": "damosel_hypnotist"
+    },
+    {
+        "name": "tabora_meet_angela",
+        "type": "toggle",
+        "img": "images/items/tabora_meet_angela.png",
+        "img_mods": "",
+        "codes": "tabora_meet_angela"
+    }
+]

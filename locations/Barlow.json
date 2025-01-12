@@ -1,0 +1,228 @@
+[
+    {
+        "name": "Barlow - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Inventor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Thermanator - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "barlow_inventor_thermanator"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barlow",
+                        "x": "2052",
+                        "y": "93",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hoverbike Race - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Biker Helmet - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "barlow_hoverbike_race_biker_helmet"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "barlow_hoverbike_race_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barlow",
+                        "x": "1369",
+                        "y": "353",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hound Cave - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "barlow_hound_cave_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barlow",
+                        "x": "2046",
+                        "y": "1218",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Hoverbike Race Transmission - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "barlow_hoverbike_race_transmission"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Barlow",
+                "x": "2429",
+                "y": "1467",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Barlow",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Inventor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Thermanator",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barlow",
+                        "x": "2052",
+                        "y": "93",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hoverbike Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Biker Helmet",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barlow",
+                        "x": "1369",
+                        "y": "353",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hound Cave",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Barlow",
+                        "x": "2046",
+                        "y": "1218",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Hoverbike Race Transmission",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Barlow",
+                "x": "2429",
+                "y": "1467",
+                "size": 6
+            }
+        ]
+    }
+]

@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Endako - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Clank's Apartment - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Swingshot - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "endako_clank's_apartment_swingshot"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grindboots - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "endako_clank's_apartment_grindboots"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Endako",
+                        "x": "859",
+                        "y": "2089",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Ledge - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "endako_ledge_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Endako",
+                        "x": "1262",
+                        "y": "2171",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Crane - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "endako_crane_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nanotech Boost - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "endako_crane_nanotech_boost"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Endako",
+                        "x": "2280",
+                        "y": "1536",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Rescue Clank Heli-Pack - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "endako_rescue_clank_heli-pack"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rescue Clank Thruster-Pack - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "endako_rescue_clank_thruster-pack"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Rescue Clank Hydro-Pack - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "endako_rescue_clank_hydro-pack"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Endako",
+                "x": "797",
+                "y": "1681",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Endako",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Clank's Apartment",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Swingshot",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grindboots",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Endako",
+                        "x": "859",
+                        "y": "2089",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ledge",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Endako",
+                        "x": "1262",
+                        "y": "2171",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Crane",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nanotech Boost",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Endako",
+                        "x": "2280",
+                        "y": "1536",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Rescue Clank Heli-Pack",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Rescue Clank Thruster-Pack",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Rescue Clank Hydro-Pack",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Endako",
+                "x": "797",
+                "y": "1681",
+                "size": 6
+            }
+        ]
+    }
+]

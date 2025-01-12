@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Siberius - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Flamebot Ledge - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "siberius_flamebot_ledge_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Siberius",
+                        "x": "948",
+                        "y": "799",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Fenced Area - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "siberius_fenced_area_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Siberius",
+                        "x": "307",
+                        "y": "1254",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Defeat Thief - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "siberius_defeat_thief"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Siberius",
+                "x": "983",
+                "y": "842",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Siberius",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Flamebot Ledge",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Siberius",
+                        "x": "948",
+                        "y": "799",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Fenced Area",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Siberius",
+                        "x": "307",
+                        "y": "1254",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Defeat Thief",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Siberius",
+                "x": "983",
+                "y": "842",
+                "size": 6
+            }
+        ]
+    }
+]

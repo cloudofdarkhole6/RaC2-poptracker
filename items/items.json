@@ -1,0 +1,310 @@
+[
+    {
+        "name": "heli-pack",
+        "type": "toggle",
+        "img": "images/items/heli-pack.png",
+        "img_mods": "",
+        "codes": "heli-pack"
+    },
+    {
+        "name": "damoselcoordinates",
+        "type": "toggle",
+        "img": "images/items/damoselcoordinates.png",
+        "img_mods": "",
+        "codes": "damoselcoordinates"
+    },
+    {
+        "name": "smolgcoordinates",
+        "type": "toggle",
+        "img": "images/items/smolgcoordinates.png",
+        "img_mods": "",
+        "codes": "smolgcoordinates"
+    },
+    {
+        "name": "endakocoordinates",
+        "type": "toggle",
+        "img": "images/items/endakocoordinates.png",
+        "img_mods": "",
+        "codes": "endakocoordinates"
+    },
+    {
+        "name": "grindboots",
+        "type": "toggle",
+        "img": "images/items/grindboots.png",
+        "img_mods": "",
+        "codes": "grindboots"
+    },
+    {
+        "name": "tractorbeam",
+        "type": "toggle",
+        "img": "images/items/tractorbeam.png",
+        "img_mods": "",
+        "codes": "tractorbeam"
+    },
+    {
+        "name": "snivelakcoordinates",
+        "type": "toggle",
+        "img": "images/items/snivelakcoordinates.png",
+        "img_mods": "",
+        "codes": "snivelakcoordinates"
+    },
+    {
+        "name": "mapper",
+        "type": "toggle",
+        "img": "images/items/mapper.png",
+        "img_mods": "",
+        "codes": "mapper"
+    },
+    {
+        "name": "jobacoordinates",
+        "type": "toggle",
+        "img": "images/items/jobacoordinates.png",
+        "img_mods": "",
+        "codes": "jobacoordinates"
+    },
+    {
+        "name": "feltzinsystemcoordinates",
+        "type": "toggle",
+        "img": "images/items/feltzinsystemcoordinates.png",
+        "img_mods": "",
+        "codes": "feltzinsystemcoordinates"
+    },
+    {
+        "name": "thruster-pack",
+        "type": "toggle",
+        "img": "images/items/thruster-pack.png",
+        "img_mods": "",
+        "codes": "thruster-pack"
+    },
+    {
+        "name": "electrolyzer",
+        "type": "toggle",
+        "img": "images/items/electrolyzer.png",
+        "img_mods": "",
+        "codes": "electrolyzer"
+    },
+    {
+        "name": "oozlacoordinates",
+        "type": "toggle",
+        "img": "images/items/oozlacoordinates.png",
+        "img_mods": "",
+        "codes": "oozlacoordinates"
+    },
+    {
+        "name": "hrugiscloudcoordinates",
+        "type": "toggle",
+        "img": "images/items/hrugiscloudcoordinates.png",
+        "img_mods": "",
+        "codes": "hrugiscloudcoordinates"
+    },
+    {
+        "name": "thermanator",
+        "type": "toggle",
+        "img": "images/items/thermanator.png",
+        "img_mods": "",
+        "codes": "thermanator"
+    },
+    {
+        "name": "boxbreaker",
+        "type": "toggle",
+        "img": "images/items/boxbreaker.png",
+        "img_mods": "",
+        "codes": "boxbreaker"
+    },
+    {
+        "name": "chargeboots",
+        "type": "toggle",
+        "img": "images/items/chargeboots.png",
+        "img_mods": "",
+        "codes": "chargeboots"
+    },
+    {
+        "name": "glider",
+        "type": "toggle",
+        "img": "images/items/glider.png",
+        "img_mods": "",
+        "codes": "glider"
+    },
+    {
+        "name": "yeedilcoordinates",
+        "type": "toggle",
+        "img": "images/items/yeedilcoordinates.png",
+        "img_mods": "",
+        "codes": "yeedilcoordinates"
+    },
+    {
+        "name": "todanocoordinates",
+        "type": "toggle",
+        "img": "images/items/todanocoordinates.png",
+        "img_mods": "",
+        "codes": "todanocoordinates"
+    },
+    {
+        "name": "platinumbolt",
+        "type": "toggle",
+        "img": "images/items/platinumbolt.png",
+        "img_mods": "",
+        "codes": "platinumbolt"
+    },
+    {
+        "name": "dynamo",
+        "type": "toggle",
+        "img": "images/items/dynamo.png",
+        "img_mods": "",
+        "codes": "dynamo"
+    },
+    {
+        "name": "aranosprisoncoordinates",
+        "type": "toggle",
+        "img": "images/items/aranosprisoncoordinates.png",
+        "img_mods": "",
+        "codes": "aranosprisoncoordinates"
+    },
+    {
+        "name": "qwarkstatuette",
+        "type": "toggle",
+        "img": "images/items/qwarkstatuette.png",
+        "img_mods": "",
+        "codes": "qwarkstatuette"
+    },
+    {
+        "name": "infiltrator",
+        "type": "toggle",
+        "img": "images/items/infiltrator.png",
+        "img_mods": "",
+        "codes": "infiltrator"
+    },
+    {
+        "name": "hypnomaticpart",
+        "type": "toggle",
+        "img": "images/items/hypnomaticpart.png",
+        "img_mods": "",
+        "codes": "hypnomaticpart"
+    },
+    {
+        "name": "hypnomatic",
+        "type": "toggle",
+        "img": "images/items/hypnomatic.png",
+        "img_mods": "",
+        "codes": "hypnomatic"
+    },
+    {
+        "name": "bikerhelmet",
+        "type": "toggle",
+        "img": "images/items/bikerhelmet.png",
+        "img_mods": "",
+        "codes": "bikerhelmet"
+    },
+    {
+        "name": "swingshot",
+        "type": "toggle",
+        "img": "images/items/swingshot.png",
+        "img_mods": "",
+        "codes": "swingshot"
+    },
+    {
+        "name": "armormagnetizer",
+        "type": "toggle",
+        "img": "images/items/armormagnetizer.png",
+        "img_mods": "",
+        "codes": "armormagnetizer"
+    },
+    {
+        "name": "siberiuscoordinates",
+        "type": "toggle",
+        "img": "images/items/siberiuscoordinates.png",
+        "img_mods": "",
+        "codes": "siberiuscoordinates"
+    },
+    {
+        "name": "gorncoordinates",
+        "type": "toggle",
+        "img": "images/items/gorncoordinates.png",
+        "img_mods": "",
+        "codes": "gorncoordinates"
+    },
+    {
+        "name": "grelbincoordinates",
+        "type": "toggle",
+        "img": "images/items/grelbincoordinates.png",
+        "img_mods": "",
+        "codes": "grelbincoordinates"
+    },
+    {
+        "name": "barlowcoordinates",
+        "type": "toggle",
+        "img": "images/items/barlowcoordinates.png",
+        "img_mods": "",
+        "codes": "barlowcoordinates"
+    },
+    {
+        "name": "dobbocoordinates",
+        "type": "toggle",
+        "img": "images/items/dobbocoordinates.png",
+        "img_mods": "",
+        "codes": "dobbocoordinates"
+    },
+    {
+        "name": "taboracoordinates",
+        "type": "toggle",
+        "img": "images/items/taboracoordinates.png",
+        "img_mods": "",
+        "codes": "taboracoordinates"
+    },
+    {
+        "name": "boldancoordinates",
+        "type": "toggle",
+        "img": "images/items/boldancoordinates.png",
+        "img_mods": "",
+        "codes": "boldancoordinates"
+    },
+    {
+        "name": "nanotechboost",
+        "type": "toggle",
+        "img": "images/items/nanotechboost.png",
+        "img_mods": "",
+        "codes": "nanotechboost"
+    },
+    {
+        "name": "notakcoordinates",
+        "type": "toggle",
+        "img": "images/items/notakcoordinates.png",
+        "img_mods": "",
+        "codes": "notakcoordinates"
+    },
+    {
+        "name": "maktarnebulacoordinates",
+        "type": "toggle",
+        "img": "images/items/maktarnebulacoordinates.png",
+        "img_mods": "",
+        "codes": "maktarnebulacoordinates"
+    },
+    {
+        "name": "gravityboots",
+        "type": "toggle",
+        "img": "images/items/gravityboots.png",
+        "img_mods": "",
+        "codes": "gravityboots"
+    },
+    {
+        "name": "hydro-pack",
+        "type": "toggle",
+        "img": "images/items/hydro-pack.png",
+        "img_mods": "",
+        "codes": "hydro-pack"
+    },
+    {
+        "name": "levitator",
+        "type": "toggle",
+        "img": "images/items/levitator.png",
+        "img_mods": "",
+        "codes": "levitator"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "img_mods": "",
+        "codes": "update"
+    }
+]

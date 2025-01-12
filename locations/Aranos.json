@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Aranos - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Plumber - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Qwark Statuette - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "aranos_plumber_qwark_statuette"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aranos",
+                        "x": "76",
+                        "y": "1803",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Under Ship - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "aranos_under_ship_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aranos",
+                        "x": "225",
+                        "y": "1312",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Control Room - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "aranos_control_room"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Aranos",
+                "x": "1621",
+                "y": "535",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Aranos",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Plumber",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Qwark Statuette",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aranos",
+                        "x": "76",
+                        "y": "1803",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Under Ship",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aranos",
+                        "x": "225",
+                        "y": "1312",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Control Room",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Aranos",
+                "x": "1621",
+                "y": "535",
+                "size": 6
+            }
+        ]
+    }
+]

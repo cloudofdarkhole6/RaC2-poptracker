@@ -1,0 +1,318 @@
+[
+    {
+        "name": "Oozla - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Outside Megacorp Store - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Dynamo - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oozla_outside_megacorp_store_dynamo"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "2145",
+                        "y": "642",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Megacorp Scientist - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Tractor Beam - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oozla_megacorp_scientist_tractor_beam"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "1787",
+                        "y": "1951",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Tractor Puzzle - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oozla_tractor_puzzle_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "1171",
+                        "y": "2220",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Swamp Ruins - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oozla_swamp_ruins_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "1738",
+                        "y": "1637",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Swamp Monster II - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Box Breaker - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oozla_swamp_monster_ii_box_breaker"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "839",
+                        "y": "1736",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "End of Store Cutscene - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "oozla_end_of_store_cutscene"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Oozla",
+                "x": "2343",
+                "y": "1657",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Oozla",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Outside Megacorp Store",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Dynamo",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "2145",
+                        "y": "642",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Megacorp Scientist",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tractor Beam",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "1787",
+                        "y": "1951",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tractor Puzzle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "1171",
+                        "y": "2220",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Swamp Ruins",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "1738",
+                        "y": "1637",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Swamp Monster II",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Box Breaker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oozla",
+                        "x": "839",
+                        "y": "1736",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "End of Store Cutscene",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Oozla",
+                "x": "2343",
+                "y": "1657",
+                "size": 6
+            }
+        ]
+    }
+]

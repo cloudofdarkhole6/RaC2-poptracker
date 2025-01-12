@@ -1,0 +1,440 @@
+[
+    {
+        "name": "Joba - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "First Hoverbike Race - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Charge Boots - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "joba_first_hoverbike_race_charge_boots"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "1074",
+                        "y": "368",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Shady Salesman - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Levitator - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "joba_shady_salesman_levitator"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "1837",
+                        "y": "1146",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Arena Battle - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Gravity Boots - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "joba_arena_battle_gravity_boots"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "1921",
+                        "y": "2170",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Arena Cage Match - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Infiltrator - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "joba_arena_cage_match_infiltrator"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "1872",
+                        "y": "1731",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Cliff - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "joba_hidden_cliff_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "2060",
+                        "y": "57",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Levitator Tower - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "joba_levitator_tower_platinum_bolt"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "899",
+                        "y": "76",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hoverbike Race Shortcut - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Nanotech Boost - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "joba_hoverbike_race_shortcut_nanotech_boost"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "568",
+                        "y": "459",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Timed Dynamo Course - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Nanotech Boost - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "joba_timed_dynamo_course_nanotech_boost"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "154",
+                        "y": "2104",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Joba",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "First Hoverbike Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Charge Boots",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "1074",
+                        "y": "368",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Shady Salesman",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Levitator",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "1837",
+                        "y": "1146",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Arena Battle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Gravity Boots",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "1921",
+                        "y": "2170",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Arena Cage Match",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Infiltrator",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "1872",
+                        "y": "1731",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Cliff",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "2060",
+                        "y": "57",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Levitator Tower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Bolt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "899",
+                        "y": "76",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hoverbike Race Shortcut",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Nanotech Boost",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "568",
+                        "y": "459",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Timed Dynamo Course",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Nanotech Boost",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Joba",
+                        "x": "154",
+                        "y": "2104",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

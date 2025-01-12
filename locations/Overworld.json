@@ -1,0 +1,1528 @@
+[
+    {
+        "name": "Overworld Hints",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Aranos - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Plumber - Qwark Statuette - hint",
+                        "ref": "Aranos - hint/Plumber - hint/Qwark Statuette - hint"
+                    },
+                    {
+                        "name": "Under Ship - Platinum Bolt - hint",
+                        "ref": "Aranos - hint/Under Ship - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Aranos - Control Room - hint",
+                        "ref": "Aranos - hint/Control Room - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "642",
+                        "y": "2079",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Barlow - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Inventor - Thermanator - hint",
+                        "ref": "Barlow - hint/Inventor - hint/Thermanator - hint"
+                    },
+                    {
+                        "name": "Hoverbike Race - Biker Helmet - hint",
+                        "ref": "Barlow - hint/Hoverbike Race - hint/Biker Helmet - hint"
+                    },
+                    {
+                        "name": "Hoverbike Race - Platinum Bolt - hint",
+                        "ref": "Barlow - hint/Hoverbike Race - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Hound Cave - Platinum Bolt - hint",
+                        "ref": "Barlow - hint/Hound Cave - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Barlow - Hoverbike Race Transmission - hint",
+                        "ref": "Barlow - hint/Hoverbike Race Transmission - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1248",
+                        "y": "602",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Boldan - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Spiderbot Alley - Platinum Bolt - hint",
+                        "ref": "Boldan - hint/Spiderbot Alley - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Floating Platform - Platinum Bolt - hint",
+                        "ref": "Boldan - hint/Floating Platform - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Upper Dome - Platinum Bolt - hint",
+                        "ref": "Boldan - hint/Upper Dome - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Fountain - Nanotech Boost - hint",
+                        "ref": "Boldan - hint/Fountain - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Boldan - Find Fizzwidget - hint",
+                        "ref": "Boldan - hint/Find Fizzwidget - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "294",
+                        "y": "2184",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Damosel - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Train Rails - Hypnomatic Part - hint",
+                        "ref": "Damosel - hint/Train Rails - hint/Hypnomatic Part - hint"
+                    },
+                    {
+                        "name": "Defeat Mothership - Mapper - hint",
+                        "ref": "Damosel - hint/Defeat Mothership - hint/Mapper - hint"
+                    },
+                    {
+                        "name": "Frozen Fountain - Platinum Bolt - hint",
+                        "ref": "Damosel - hint/Frozen Fountain - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Pyramid - Platinum Bolt - hint",
+                        "ref": "Damosel - hint/Pyramid - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Damosel - Hypnotist - hint",
+                        "ref": "Damosel - hint/Hypnotist - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "903",
+                        "y": "1416",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Dobbo - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Spiderbot Room - Platinum Bolt - hint",
+                        "ref": "Dobbo - hint/Spiderbot Room - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Facility Glide End - Platinum Bolt - hint",
+                        "ref": "Dobbo - hint/Facility Glide End - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Facility Glide Beginning - Nanotech Boost - hint",
+                        "ref": "Dobbo - hint/Facility Glide Beginning - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Dobbo - Defeat Thug Leader - hint",
+                        "ref": "Dobbo - hint/Defeat Thug Leader - hint"
+                    },
+                    {
+                        "name": "Dobbo - Facility Terminal - hint",
+                        "ref": "Dobbo - hint/Facility Terminal - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1233",
+                        "y": "58",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Endako - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Clank's Apartment - Swingshot - hint",
+                        "ref": "Endako - hint/Clank's Apartment - hint/Swingshot - hint"
+                    },
+                    {
+                        "name": "Clank's Apartment - Grindboots - hint",
+                        "ref": "Endako - hint/Clank's Apartment - hint/Grindboots - hint"
+                    },
+                    {
+                        "name": "Ledge - Platinum Bolt - hint",
+                        "ref": "Endako - hint/Ledge - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Crane - Platinum Bolt - hint",
+                        "ref": "Endako - hint/Crane - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Crane - Nanotech Boost - hint",
+                        "ref": "Endako - hint/Crane - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Endako - Rescue Clank Heli-Pack - hint",
+                        "ref": "Endako - hint/Rescue Clank Heli-Pack - hint"
+                    },
+                    {
+                        "name": "Endako - Rescue Clank Thruster-Pack - hint",
+                        "ref": "Endako - hint/Rescue Clank Thruster-Pack - hint"
+                    },
+                    {
+                        "name": "Endako - Rescue Clank Hydro-Pack - hint",
+                        "ref": "Endako - hint/Rescue Clank Hydro-Pack - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1384",
+                        "y": "143",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Feltzin - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Race - Platinum Bolt - hint",
+                        "ref": "Feltzin - hint/Race - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Cargo Bay - Nanotech Boost - hint",
+                        "ref": "Feltzin - hint/Cargo Bay - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Feltzin - Defeat Thug Ships - hint",
+                        "ref": "Feltzin - hint/Defeat Thug Ships - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "43",
+                        "y": "477",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gorn - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Race - Platinum Bolt - hint",
+                        "ref": "Gorn - hint/Race - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Gorn - Defeat Thug Fleet - hint",
+                        "ref": "Gorn - hint/Defeat Thug Fleet - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "194",
+                        "y": "1512",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Grelbin - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Mystic More Moonstones - Hypnomatic Part - hint",
+                        "ref": "Grelbin - hint/Mystic More Moonstones - hint/Hypnomatic Part - hint"
+                    },
+                    {
+                        "name": "Ice Plains - Platinum Bolt - hint",
+                        "ref": "Grelbin - hint/Ice Plains - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Underwater Tunnel - Platinum Bolt - hint",
+                        "ref": "Grelbin - hint/Underwater Tunnel - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Yeti Cave - Platinum Bolt - hint",
+                        "ref": "Grelbin - hint/Yeti Cave - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Grelbin - Find Angela - hint",
+                        "ref": "Grelbin - hint/Find Angela - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1336",
+                        "y": "1278",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hrugis Cloud - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Race - Platinum Bolt - hint",
+                        "ref": "Hrugis Cloud - hint/Race - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Hrugis Cloud - Destroy Defenses - hint",
+                        "ref": "Hrugis Cloud - hint/Destroy Defenses - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2155",
+                        "y": "1435",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Joba - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "First Hoverbike Race - Charge Boots - hint",
+                        "ref": "Joba - hint/First Hoverbike Race - hint/Charge Boots - hint"
+                    },
+                    {
+                        "name": "Shady Salesman - Levitator - hint",
+                        "ref": "Joba - hint/Shady Salesman - hint/Levitator - hint"
+                    },
+                    {
+                        "name": "Arena Battle - Gravity Boots - hint",
+                        "ref": "Joba - hint/Arena Battle - hint/Gravity Boots - hint"
+                    },
+                    {
+                        "name": "Arena Cage Match - Infiltrator - hint",
+                        "ref": "Joba - hint/Arena Cage Match - hint/Infiltrator - hint"
+                    },
+                    {
+                        "name": "Hidden Cliff - Platinum Bolt - hint",
+                        "ref": "Joba - hint/Hidden Cliff - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Levitator Tower - Platinum Bolt - hint",
+                        "ref": "Joba - hint/Levitator Tower - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Hoverbike Race Shortcut - Nanotech Boost - hint",
+                        "ref": "Joba - hint/Hoverbike Race Shortcut - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Timed Dynamo Course - Nanotech Boost - hint",
+                        "ref": "Joba - hint/Timed Dynamo Course - hint/Nanotech Boost - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "763",
+                        "y": "1110",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Maktar - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Arena Challenge - Electrolyzer - hint",
+                        "ref": "Maktar - hint/Arena Challenge - hint/Electrolyzer - hint"
+                    },
+                    {
+                        "name": "Jamming Array - Platinum Bolt - hint",
+                        "ref": "Maktar - hint/Jamming Array - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Crane - Platinum Bolt - hint",
+                        "ref": "Maktar - hint/Crane - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Maktar - Photo Booth - hint",
+                        "ref": "Maktar - hint/Photo Booth - hint"
+                    },
+                    {
+                        "name": "Maktar - Deactivate Jamming Array - hint",
+                        "ref": "Maktar - hint/Deactivate Jamming Array - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1373",
+                        "y": "1836",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Notak - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Behind Building - Platinum Bolt - hint",
+                        "ref": "Notak - hint/Behind Building - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Promenade Sign - Platinum Bolt - hint",
+                        "ref": "Notak - hint/Promenade Sign - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Timed Dynamo - Platinum Bolt - hint",
+                        "ref": "Notak - hint/Timed Dynamo - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Promenade End - Nanotech Boost - hint",
+                        "ref": "Notak - hint/Promenade End - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Notak - Top of Pier Telescreen - hint",
+                        "ref": "Notak - hint/Top of Pier Telescreen - hint"
+                    },
+                    {
+                        "name": "Notak - Worker Bots - hint",
+                        "ref": "Notak - hint/Worker Bots - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1474",
+                        "y": "1239",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Oozla - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Outside Megacorp Store - Dynamo - hint",
+                        "ref": "Oozla - hint/Outside Megacorp Store - hint/Dynamo - hint"
+                    },
+                    {
+                        "name": "Megacorp Scientist - Tractor Beam - hint",
+                        "ref": "Oozla - hint/Megacorp Scientist - hint/Tractor Beam - hint"
+                    },
+                    {
+                        "name": "Tractor Puzzle - Platinum Bolt - hint",
+                        "ref": "Oozla - hint/Tractor Puzzle - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Swamp Ruins - Platinum Bolt - hint",
+                        "ref": "Oozla - hint/Swamp Ruins - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Swamp Monster II - Box Breaker - hint",
+                        "ref": "Oozla - hint/Swamp Monster II - hint/Box Breaker - hint"
+                    },
+                    {
+                        "name": "Oozla - End of Store Cutscene - hint",
+                        "ref": "Oozla - hint/End of Store Cutscene - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "293",
+                        "y": "171",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Siberius - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Flamebot Ledge - Platinum Bolt - hint",
+                        "ref": "Siberius - hint/Flamebot Ledge - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Fenced Area - Platinum Bolt - hint",
+                        "ref": "Siberius - hint/Fenced Area - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Siberius - Defeat Thief - hint",
+                        "ref": "Siberius - hint/Defeat Thief - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2426",
+                        "y": "38",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Smolg - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Distribution Facility End - Hypnomatic Part - hint",
+                        "ref": "Smolg - hint/Distribution Facility End - hint/Hypnomatic Part - hint"
+                    },
+                    {
+                        "name": "Floating Platform - Platinum Bolt - hint",
+                        "ref": "Smolg - hint/Floating Platform - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Warehouse - Platinum Bolt - hint",
+                        "ref": "Smolg - hint/Warehouse - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Smolg - Balloon Transmission - hint",
+                        "ref": "Smolg - hint/Balloon Transmission - hint"
+                    },
+                    {
+                        "name": "Smolg - Mutant Crab - hint",
+                        "ref": "Smolg - hint/Mutant Crab - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "85",
+                        "y": "924",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Snivelak - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Dynamo Platforms - Platinum Bolt - hint",
+                        "ref": "Snivelak - hint/Dynamo Platforms - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Swingshot Tower - Nanotech Boost - hint",
+                        "ref": "Snivelak - hint/Swingshot Tower - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Snivelak - Rescue Angela - hint",
+                        "ref": "Snivelak - hint/Rescue Angela - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2261",
+                        "y": "1678",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Tabora - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Underground Mines - Glider - hint",
+                        "ref": "Tabora - hint/Underground Mines - hint/Glider - hint"
+                    },
+                    {
+                        "name": "Underground Mines - Platinum Bolt - hint",
+                        "ref": "Tabora - hint/Underground Mines - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Canyon Glide - Platinum Bolt - hint",
+                        "ref": "Tabora - hint/Canyon Glide - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Northeast Desert - Platinum Bolt - hint",
+                        "ref": "Tabora - hint/Northeast Desert - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Canyon Glide Pillar - Nanotech Boost - hint",
+                        "ref": "Tabora - hint/Canyon Glide Pillar - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Tabora - Meet Angela - hint",
+                        "ref": "Tabora - hint/Meet Angela - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "177",
+                        "y": "1093",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Todano - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Stuart Zurgo Trade - Armor Magnetizer - hint",
+                        "ref": "Todano - hint/Stuart Zurgo Trade - hint/Armor Magnetizer - hint"
+                    },
+                    {
+                        "name": "Near Stuart Zurgo - Platinum Bolt - hint",
+                        "ref": "Todano - hint/Near Stuart Zurgo - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "End of Tour - Platinum Bolt - hint",
+                        "ref": "Todano - hint/End of Tour - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Spiderbot Conveyor - Platinum Bolt - hint",
+                        "ref": "Todano - hint/Spiderbot Conveyor - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Rocket Silo - Nanotech Boost - hint",
+                        "ref": "Todano - hint/Rocket Silo - hint/Nanotech Boost - hint"
+                    },
+                    {
+                        "name": "Todano - Search Rocket Silo - hint",
+                        "ref": "Todano - hint/Search Rocket Silo - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "163",
+                        "y": "980",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Yeedil - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Bridge Grindrail - Platinum Bolt - hint",
+                        "ref": "Yeedil - hint/Bridge Grindrail - hint/Platinum Bolt - hint"
+                    },
+                    {
+                        "name": "Tractor Pillar - Platinum Bolt - hint",
+                        "ref": "Yeedil - hint/Tractor Pillar - hint/Platinum Bolt - hint"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2306",
+                        "y": "609",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Aranos",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Plumber - Qwark Statuette",
+                        "ref": "Aranos/Plumber/Qwark Statuette"
+                    },
+                    {
+                        "name": "Under Ship - Platinum Bolt",
+                        "ref": "Aranos/Under Ship/Platinum Bolt"
+                    },
+                    {
+                        "name": "Aranos - Control Room",
+                        "ref": "Aranos/Control Room"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "642",
+                        "y": "2079",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Barlow",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Inventor - Thermanator",
+                        "ref": "Barlow/Inventor/Thermanator"
+                    },
+                    {
+                        "name": "Hoverbike Race - Biker Helmet",
+                        "ref": "Barlow/Hoverbike Race/Biker Helmet"
+                    },
+                    {
+                        "name": "Hoverbike Race - Platinum Bolt",
+                        "ref": "Barlow/Hoverbike Race/Platinum Bolt"
+                    },
+                    {
+                        "name": "Hound Cave - Platinum Bolt",
+                        "ref": "Barlow/Hound Cave/Platinum Bolt"
+                    },
+                    {
+                        "name": "Barlow - Hoverbike Race Transmission",
+                        "ref": "Barlow/Hoverbike Race Transmission"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1248",
+                        "y": "602",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Boldan",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Spiderbot Alley - Platinum Bolt",
+                        "ref": "Boldan/Spiderbot Alley/Platinum Bolt"
+                    },
+                    {
+                        "name": "Floating Platform - Platinum Bolt",
+                        "ref": "Boldan/Floating Platform/Platinum Bolt"
+                    },
+                    {
+                        "name": "Upper Dome - Platinum Bolt",
+                        "ref": "Boldan/Upper Dome/Platinum Bolt"
+                    },
+                    {
+                        "name": "Fountain - Nanotech Boost",
+                        "ref": "Boldan/Fountain/Nanotech Boost"
+                    },
+                    {
+                        "name": "Boldan - Find Fizzwidget",
+                        "ref": "Boldan/Find Fizzwidget"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "294",
+                        "y": "2184",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Damosel",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Train Rails - Hypnomatic Part",
+                        "ref": "Damosel/Train Rails/Hypnomatic Part"
+                    },
+                    {
+                        "name": "Defeat Mothership - Mapper",
+                        "ref": "Damosel/Defeat Mothership/Mapper"
+                    },
+                    {
+                        "name": "Frozen Fountain - Platinum Bolt",
+                        "ref": "Damosel/Frozen Fountain/Platinum Bolt"
+                    },
+                    {
+                        "name": "Pyramid - Platinum Bolt",
+                        "ref": "Damosel/Pyramid/Platinum Bolt"
+                    },
+                    {
+                        "name": "Damosel - Hypnotist",
+                        "ref": "Damosel/Hypnotist"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "903",
+                        "y": "1416",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Dobbo",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Spiderbot Room - Platinum Bolt",
+                        "ref": "Dobbo/Spiderbot Room/Platinum Bolt"
+                    },
+                    {
+                        "name": "Facility Glide End - Platinum Bolt",
+                        "ref": "Dobbo/Facility Glide End/Platinum Bolt"
+                    },
+                    {
+                        "name": "Facility Glide Beginning - Nanotech Boost",
+                        "ref": "Dobbo/Facility Glide Beginning/Nanotech Boost"
+                    },
+                    {
+                        "name": "Dobbo - Defeat Thug Leader",
+                        "ref": "Dobbo/Defeat Thug Leader"
+                    },
+                    {
+                        "name": "Dobbo - Facility Terminal",
+                        "ref": "Dobbo/Facility Terminal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1233",
+                        "y": "58",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Endako",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clank's Apartment - Swingshot",
+                        "ref": "Endako/Clank's Apartment/Swingshot"
+                    },
+                    {
+                        "name": "Clank's Apartment - Grindboots",
+                        "ref": "Endako/Clank's Apartment/Grindboots"
+                    },
+                    {
+                        "name": "Ledge - Platinum Bolt",
+                        "ref": "Endako/Ledge/Platinum Bolt"
+                    },
+                    {
+                        "name": "Crane - Platinum Bolt",
+                        "ref": "Endako/Crane/Platinum Bolt"
+                    },
+                    {
+                        "name": "Crane - Nanotech Boost",
+                        "ref": "Endako/Crane/Nanotech Boost"
+                    },
+                    {
+                        "name": "Endako - Rescue Clank Heli-Pack",
+                        "ref": "Endako/Rescue Clank Heli-Pack"
+                    },
+                    {
+                        "name": "Endako - Rescue Clank Thruster-Pack",
+                        "ref": "Endako/Rescue Clank Thruster-Pack"
+                    },
+                    {
+                        "name": "Endako - Rescue Clank Hydro-Pack",
+                        "ref": "Endako/Rescue Clank Hydro-Pack"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1384",
+                        "y": "143",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Feltzin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Race - Platinum Bolt",
+                        "ref": "Feltzin/Race/Platinum Bolt"
+                    },
+                    {
+                        "name": "Cargo Bay - Nanotech Boost",
+                        "ref": "Feltzin/Cargo Bay/Nanotech Boost"
+                    },
+                    {
+                        "name": "Feltzin - Defeat Thug Ships",
+                        "ref": "Feltzin/Defeat Thug Ships"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "43",
+                        "y": "477",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gorn",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Race - Platinum Bolt",
+                        "ref": "Gorn/Race/Platinum Bolt"
+                    },
+                    {
+                        "name": "Gorn - Defeat Thug Fleet",
+                        "ref": "Gorn/Defeat Thug Fleet"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "194",
+                        "y": "1512",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Grelbin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Mystic More Moonstones - Hypnomatic Part",
+                        "ref": "Grelbin/Mystic More Moonstones/Hypnomatic Part"
+                    },
+                    {
+                        "name": "Ice Plains - Platinum Bolt",
+                        "ref": "Grelbin/Ice Plains/Platinum Bolt"
+                    },
+                    {
+                        "name": "Underwater Tunnel - Platinum Bolt",
+                        "ref": "Grelbin/Underwater Tunnel/Platinum Bolt"
+                    },
+                    {
+                        "name": "Yeti Cave - Platinum Bolt",
+                        "ref": "Grelbin/Yeti Cave/Platinum Bolt"
+                    },
+                    {
+                        "name": "Grelbin - Find Angela",
+                        "ref": "Grelbin/Find Angela"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1336",
+                        "y": "1278",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hrugis Cloud",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Race - Platinum Bolt",
+                        "ref": "Hrugis Cloud/Race/Platinum Bolt"
+                    },
+                    {
+                        "name": "Hrugis Cloud - Destroy Defenses",
+                        "ref": "Hrugis Cloud/Destroy Defenses"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2155",
+                        "y": "1435",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Joba",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "First Hoverbike Race - Charge Boots",
+                        "ref": "Joba/First Hoverbike Race/Charge Boots"
+                    },
+                    {
+                        "name": "Shady Salesman - Levitator",
+                        "ref": "Joba/Shady Salesman/Levitator"
+                    },
+                    {
+                        "name": "Arena Battle - Gravity Boots",
+                        "ref": "Joba/Arena Battle/Gravity Boots"
+                    },
+                    {
+                        "name": "Arena Cage Match - Infiltrator",
+                        "ref": "Joba/Arena Cage Match/Infiltrator"
+                    },
+                    {
+                        "name": "Hidden Cliff - Platinum Bolt",
+                        "ref": "Joba/Hidden Cliff/Platinum Bolt"
+                    },
+                    {
+                        "name": "Levitator Tower - Platinum Bolt",
+                        "ref": "Joba/Levitator Tower/Platinum Bolt"
+                    },
+                    {
+                        "name": "Hoverbike Race Shortcut - Nanotech Boost",
+                        "ref": "Joba/Hoverbike Race Shortcut/Nanotech Boost"
+                    },
+                    {
+                        "name": "Timed Dynamo Course - Nanotech Boost",
+                        "ref": "Joba/Timed Dynamo Course/Nanotech Boost"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "763",
+                        "y": "1110",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Maktar",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Arena Challenge - Electrolyzer",
+                        "ref": "Maktar/Arena Challenge/Electrolyzer"
+                    },
+                    {
+                        "name": "Jamming Array - Platinum Bolt",
+                        "ref": "Maktar/Jamming Array/Platinum Bolt"
+                    },
+                    {
+                        "name": "Crane - Platinum Bolt",
+                        "ref": "Maktar/Crane/Platinum Bolt"
+                    },
+                    {
+                        "name": "Maktar - Photo Booth",
+                        "ref": "Maktar/Photo Booth"
+                    },
+                    {
+                        "name": "Maktar - Deactivate Jamming Array",
+                        "ref": "Maktar/Deactivate Jamming Array"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1373",
+                        "y": "1836",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Notak",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Behind Building - Platinum Bolt",
+                        "ref": "Notak/Behind Building/Platinum Bolt"
+                    },
+                    {
+                        "name": "Promenade Sign - Platinum Bolt",
+                        "ref": "Notak/Promenade Sign/Platinum Bolt"
+                    },
+                    {
+                        "name": "Timed Dynamo - Platinum Bolt",
+                        "ref": "Notak/Timed Dynamo/Platinum Bolt"
+                    },
+                    {
+                        "name": "Promenade End - Nanotech Boost",
+                        "ref": "Notak/Promenade End/Nanotech Boost"
+                    },
+                    {
+                        "name": "Notak - Top of Pier Telescreen",
+                        "ref": "Notak/Top of Pier Telescreen"
+                    },
+                    {
+                        "name": "Notak - Worker Bots",
+                        "ref": "Notak/Worker Bots"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "1474",
+                        "y": "1239",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Oozla",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Outside Megacorp Store - Dynamo",
+                        "ref": "Oozla/Outside Megacorp Store/Dynamo"
+                    },
+                    {
+                        "name": "Megacorp Scientist - Tractor Beam",
+                        "ref": "Oozla/Megacorp Scientist/Tractor Beam"
+                    },
+                    {
+                        "name": "Tractor Puzzle - Platinum Bolt",
+                        "ref": "Oozla/Tractor Puzzle/Platinum Bolt"
+                    },
+                    {
+                        "name": "Swamp Ruins - Platinum Bolt",
+                        "ref": "Oozla/Swamp Ruins/Platinum Bolt"
+                    },
+                    {
+                        "name": "Swamp Monster II - Box Breaker",
+                        "ref": "Oozla/Swamp Monster II/Box Breaker"
+                    },
+                    {
+                        "name": "Oozla - End of Store Cutscene",
+                        "ref": "Oozla/End of Store Cutscene"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "293",
+                        "y": "171",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Siberius",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Flamebot Ledge - Platinum Bolt",
+                        "ref": "Siberius/Flamebot Ledge/Platinum Bolt"
+                    },
+                    {
+                        "name": "Fenced Area - Platinum Bolt",
+                        "ref": "Siberius/Fenced Area/Platinum Bolt"
+                    },
+                    {
+                        "name": "Siberius - Defeat Thief",
+                        "ref": "Siberius/Defeat Thief"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2426",
+                        "y": "38",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Smolg",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Distribution Facility End - Hypnomatic Part",
+                        "ref": "Smolg/Distribution Facility End/Hypnomatic Part"
+                    },
+                    {
+                        "name": "Floating Platform - Platinum Bolt",
+                        "ref": "Smolg/Floating Platform/Platinum Bolt"
+                    },
+                    {
+                        "name": "Warehouse - Platinum Bolt",
+                        "ref": "Smolg/Warehouse/Platinum Bolt"
+                    },
+                    {
+                        "name": "Smolg - Balloon Transmission",
+                        "ref": "Smolg/Balloon Transmission"
+                    },
+                    {
+                        "name": "Smolg - Mutant Crab",
+                        "ref": "Smolg/Mutant Crab"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "85",
+                        "y": "924",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Snivelak",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Dynamo Platforms - Platinum Bolt",
+                        "ref": "Snivelak/Dynamo Platforms/Platinum Bolt"
+                    },
+                    {
+                        "name": "Swingshot Tower - Nanotech Boost",
+                        "ref": "Snivelak/Swingshot Tower/Nanotech Boost"
+                    },
+                    {
+                        "name": "Snivelak - Rescue Angela",
+                        "ref": "Snivelak/Rescue Angela"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2261",
+                        "y": "1678",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tabora",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Underground Mines - Glider",
+                        "ref": "Tabora/Underground Mines/Glider"
+                    },
+                    {
+                        "name": "Underground Mines - Platinum Bolt",
+                        "ref": "Tabora/Underground Mines/Platinum Bolt"
+                    },
+                    {
+                        "name": "Canyon Glide - Platinum Bolt",
+                        "ref": "Tabora/Canyon Glide/Platinum Bolt"
+                    },
+                    {
+                        "name": "Northeast Desert - Platinum Bolt",
+                        "ref": "Tabora/Northeast Desert/Platinum Bolt"
+                    },
+                    {
+                        "name": "Canyon Glide Pillar - Nanotech Boost",
+                        "ref": "Tabora/Canyon Glide Pillar/Nanotech Boost"
+                    },
+                    {
+                        "name": "Tabora - Meet Angela",
+                        "ref": "Tabora/Meet Angela"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "177",
+                        "y": "1093",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Todano",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Stuart Zurgo Trade - Armor Magnetizer",
+                        "ref": "Todano/Stuart Zurgo Trade/Armor Magnetizer"
+                    },
+                    {
+                        "name": "Near Stuart Zurgo - Platinum Bolt",
+                        "ref": "Todano/Near Stuart Zurgo/Platinum Bolt"
+                    },
+                    {
+                        "name": "End of Tour - Platinum Bolt",
+                        "ref": "Todano/End of Tour/Platinum Bolt"
+                    },
+                    {
+                        "name": "Spiderbot Conveyor - Platinum Bolt",
+                        "ref": "Todano/Spiderbot Conveyor/Platinum Bolt"
+                    },
+                    {
+                        "name": "Rocket Silo - Nanotech Boost",
+                        "ref": "Todano/Rocket Silo/Nanotech Boost"
+                    },
+                    {
+                        "name": "Todano - Search Rocket Silo",
+                        "ref": "Todano/Search Rocket Silo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "163",
+                        "y": "980",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Yeedil",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bridge Grindrail - Platinum Bolt",
+                        "ref": "Yeedil/Bridge Grindrail/Platinum Bolt"
+                    },
+                    {
+                        "name": "Tractor Pillar - Platinum Bolt",
+                        "ref": "Yeedil/Tractor Pillar/Platinum Bolt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": "2306",
+                        "y": "609",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]
