@@ -48,7 +48,7 @@
                         "name": "Mapper - hint",
                         "access_rules": [],
                         "visibility_rules": [
-                            "damosel_defeat_mothership_mapper"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -56,8 +56,8 @@
                 "map_locations": [
                     {
                         "map": "Damosel",
-                        "x": "1017",
-                        "y": "1898",
+                        "x": "862",
+                        "y": "1061",
                         "size": 12
                     }
                 ]
