@@ -7,6 +7,7 @@ CUR_INDEX = -1
 --SLOT_DATA = nil
 
 SLOT_DATA = {}
+OBTAINED_ITEMS = {}
 
 function has_value (t, val)
     for i, v in ipairs(t) do
@@ -42,7 +43,7 @@ end
 
 function onClearHandler(slot_data)
     local clear_timer = os.clock()
-    
+
     ScriptHost:RemoveWatchForCode("StateChange")
     -- Disable tracker updates.
     Tracker.BulkUpdate = true
@@ -71,6 +72,7 @@ end
 function onClear(slot_data)
     --SLOT_DATA = slot_data
     CUR_INDEX = -1
+    OBTAINED_ITEMS = {}
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
         for _, location in pairs(location_array) do
@@ -127,44 +129,27 @@ function onClear(slot_data)
 end
 
 function onItem(index, item_id, item_name, player_number)
-    if index <= CUR_INDEX then
-        return
+	if index <= CUR_INDEX then
+		return
+	end
+	CUR_INDEX = index;
+	local value = ITEM_MAPPING[item_id]
+	if not value then
+		return
+	end
+  if not value[1] then
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+      print(string.format("onItem: could not find code for id %s", item_id))
     end
-    local is_local = player_number == Archipelago.PlayerNumber
-    CUR_INDEX = index;
-    local item = ITEM_MAPPING[item_id]
-    if not item or not item[1] then
-        --print(string.format("onItem: could not find item mapping for id %s", item_id))
-        return
-    end
-    for _, item_tuple in pairs(item) do
-        for _, item_pair in pairs(item_tuples) do
-            item_code = item_pair[1]
-            item_type = item_pair[2]
-            local item_obj = Tracker:FindObjectForCode(item_code)
-            if item_obj then
-                if item_obj.Type == "toggle" then
-                    -- print("toggle")
-                    item_obj.Active = true
-                elseif item_obj.Type == "progressive" then
-                    -- print("progressive")
-                    item_obj.Active = true
-                elseif item_obj.Type == "consumable" then
-                    -- print("consumable")
-                    item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (item_pair[3] or 1)
-                elseif item_obj.Type == "progressive_toggle" then
-                    -- print("progressive_toggle")
-                    if item_obj.Active then
-                        item_obj.CurrentStage = item_obj.CurrentStage + 1
-                    else
-                        item_obj.Active = true
-                    end
-                end
-            else
-                print(string.format("onItem: could not find object for code %s", item_code[1]))
-            end
-        end
-    end
+    return
+  end
+	local object = Tracker:FindObjectForCode(value[1])
+	if object then
+		object.Active = true
+    table.insert(OBTAINED_ITEMS, value[1])
+  elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("onItem: could not find object for code %s", v[1]))
+	end
 end
 
 --called when a location gets cleared
