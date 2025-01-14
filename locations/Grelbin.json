@@ -1,266 +1,96 @@
 [
-    {
-        "name": "Grelbin - hint",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            "{}"
-        ],
-        "children": [
-            {
-                "name": "Mystic More Moonstones - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Hypnomatic Part - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "grelbin_mystic_more_moonstones_hypnomatic_part"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grelbin",
-                        "x": "198",
-                        "y": "547",
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Ice Plains - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "grelbin_ice_plains_platinum_bolt"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grelbin",
-                        "x": "1147",
-                        "y": "1436",
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Underwater Tunnel - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "grelbin_underwater_tunnel_platinum_bolt"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grelbin",
-                        "x": "2423",
-                        "y": "956",
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Yeti Cave - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "grelbin_yeti_cave_platinum_bolt"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grelbin",
-                        "x": "150",
-                        "y": "1129",
-                        "size": 12
-                    }
-                ]
-            }
-        ],
+  {
+    "name": "Grelbin",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": [" "],
+    "children": [
+      {
+        "name": "Mystic More Moonstones",
+        "access_rules": [" "],
         "sections": [
-            {
-                "name": "Find Angela - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "grelbin_find_angela"
-                ],
-                "item_count": 1
-            }
+          {
+            "name": "Hypnomatic Part",
+            "access_rules": [],
+            "visibility_rules": []
+          }
         ],
         "map_locations": [
-            {
-                "map": "Grelbin",
-                "x": "462",
-                "y": "256",
-                "size": 12
-            }
+          {
+            "map": "Grelbin",
+            "x": "198",
+            "y": "547"
+          }
         ]
-    },
-    {
-        "name": "Grelbin",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "children": [
-            {
-                "name": "Mystic More Moonstones",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Hypnomatic Part",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grelbin",
-                        "x": "198",
-                        "y": "547",
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Ice Plains",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grelbin",
-                        "x": "1147",
-                        "y": "1436",
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Underwater Tunnel",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grelbin",
-                        "x": "2423",
-                        "y": "956",
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Yeti Cave",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Grelbin",
-                        "x": "150",
-                        "y": "1129",
-                        "size": 6
-                    }
-                ]
-            }
-        ],
+      },
+      {
+        "name": "Ice Plains",
+        "access_rules": [" "],
         "sections": [
-            {
-                "name": "Find Angela",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
+          {
+            "name": "Platinum Bolt",
+            "access_rules": [],
+            "visibility_rules": []
+          }
         ],
         "map_locations": [
-            {
-                "map": "Grelbin",
-                "x": "462",
-                "y": "256",
-                "size": 6
-            }
+          {
+            "map": "Grelbin",
+            "x": "1147",
+            "y": "1436"
+          }
         ]
-    }
+      },
+      {
+        "name": "Underwater Tunnel",
+        "access_rules": [" "],
+        "sections": [
+          {
+            "name": "Platinum Bolt",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Grelbin",
+            "x": "2423",
+            "y": "956"
+          }
+        ]
+      },
+      {
+        "name": "Yeti Cave",
+        "access_rules": [" "],
+        "sections": [
+          {
+            "name": "Platinum Bolt",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Grelbin",
+            "x": "150",
+            "y": "1129"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Find Angela",
+        "access_rules": [],
+        "visibility_rules": []
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Grelbin",
+        "x": "462",
+        "y": "256"
+      }
+    ]
+  }
 ]

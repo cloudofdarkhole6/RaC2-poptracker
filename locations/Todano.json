@@ -1,318 +1,114 @@
 [
-    {
-        "name": "Todano - hint",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            "{}"
-        ],
-        "children": [
-            {
-                "name": "Stuart Zurgo Trade - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Armor Magnetizer - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "todano_stuart_zurgo_trade_armor_magnetizer"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "2168",
-                        "y": "2491",
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Near Stuart Zurgo - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "todano_near_stuart_zurgo_platinum_bolt"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "1293",
-                        "y": "918",
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "End of Tour - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "todano_end_of_tour_platinum_bolt"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "2234",
-                        "y": "1045",
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Spiderbot Conveyor - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "todano_spiderbot_conveyor_platinum_bolt"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "1425",
-                        "y": "255",
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Rocket Silo - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Nanotech Boost - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "todano_rocket_silo_nanotech_boost"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "1268",
-                        "y": "161",
-                        "size": 12
-                    }
-                ]
-            }
-        ],
+  {
+    "name": "Todano",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": [" "],
+    "children": [
+      {
+        "name": "Stuart Zurgo Trade",
+        "access_rules": [" "],
         "sections": [
-            {
-                "name": "Search Rocket Silo - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "todano_search_rocket_silo"
-                ],
-                "item_count": 1
-            }
+          {
+            "name": "Armor Magnetizer",
+            "access_rules": [],
+            "visibility_rules": []
+          }
         ],
         "map_locations": [
-            {
-                "map": "Todano",
-                "x": "664",
-                "y": "1310",
-                "size": 12
-            }
+          {
+            "map": "Todano",
+            "x": "2168",
+            "y": "2491"
+          }
         ]
-    },
-    {
-        "name": "Todano",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "children": [
-            {
-                "name": "Stuart Zurgo Trade",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Armor Magnetizer",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "2168",
-                        "y": "2491",
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Near Stuart Zurgo",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "1293",
-                        "y": "918",
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "End of Tour",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "2234",
-                        "y": "1045",
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Spiderbot Conveyor",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "1425",
-                        "y": "255",
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Rocket Silo",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Nanotech Boost",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Todano",
-                        "x": "1268",
-                        "y": "161",
-                        "size": 6
-                    }
-                ]
-            }
-        ],
+      },
+      {
+        "name": "Near Stuart Zurgo",
+        "access_rules": [" "],
         "sections": [
-            {
-                "name": "Search Rocket Silo",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
+          {
+            "name": "Platinum Bolt",
+            "access_rules": [],
+            "visibility_rules": []
+          }
         ],
         "map_locations": [
-            {
-                "map": "Todano",
-                "x": "664",
-                "y": "1310",
-                "size": 6
-            }
+          {
+            "map": "Todano",
+            "x": "1293",
+            "y": "918"
+          }
         ]
-    }
+      },
+      {
+        "name": "End of Tour",
+        "access_rules": [" "],
+        "sections": [
+          {
+            "name": "Platinum Bolt",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "2234",
+            "y": "1045"
+          }
+        ]
+      },
+      {
+        "name": "Spiderbot Conveyor",
+        "access_rules": [" "],
+        "sections": [
+          {
+            "name": "Platinum Bolt",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "1425",
+            "y": "255"
+          }
+        ]
+      },
+      {
+        "name": "Rocket Silo",
+        "access_rules": [" "],
+        "sections": [
+          {
+            "name": "Nanotech Boost",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "1268",
+            "y": "161"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Search Rocket Silo",
+        "access_rules": [],
+        "visibility_rules": []
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Todano",
+        "x": "664",
+        "y": "1310"
+      }
+    ]
+  }
 ]

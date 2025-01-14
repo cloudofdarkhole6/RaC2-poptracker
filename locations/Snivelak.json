@@ -1,162 +1,62 @@
 [
-    {
-        "name": "Snivelak - hint",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            "{}"
-        ],
-        "children": [
-            {
-                "name": "Dynamo Platforms - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "snivelak_dynamo_platforms_platinum_bolt"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Snivelak",
-                        "x": "2262",
-                        "y": "2273",
-                        "size": 12
-                    }
-                ]
-            },
-            {
-                "name": "Swingshot Tower - hint",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "{}"
-                ],
-                "sections": [
-                    {
-                        "name": "Nanotech Boost - hint",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "snivelak_swingshot_tower_nanotech_boost"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Snivelak",
-                        "x": "1074",
-                        "y": "411",
-                        "size": 12
-                    }
-                ]
-            }
-        ],
+  {
+    "name": "Snivelak",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": [
+      " "
+    ],
+    "children": [
+      {
+        "name": "Dynamo Platforms",
+        "access_rules": [" "],
         "sections": [
-            {
-                "name": "Rescue Angela - hint",
-                "access_rules": [],
-                "visibility_rules": [
-                    "snivelak_rescue_angela"
-                ],
-                "item_count": 1
-            }
+          {
+            "name": "Platinum Bolt",
+            "access_rules": [],
+            "visibility_rules": []
+          }
         ],
         "map_locations": [
-            {
-                "map": "Snivelak",
-                "x": "1545",
-                "y": "1426",
-                "size": 12
-            }
+          {
+            "map": "Snivelak",
+            "x": "2262",
+            "y": "2273"
+          }
         ]
-    },
-    {
-        "name": "Snivelak",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "children": [
-            {
-                "name": "Dynamo Platforms",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Platinum Bolt",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Snivelak",
-                        "x": "2262",
-                        "y": "2273",
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Swingshot Tower",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Nanotech Boost",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Snivelak",
-                        "x": "1074",
-                        "y": "411",
-                        "size": 6
-                    }
-                ]
-            }
-        ],
+      },
+      {
+        "name": "Swingshot Tower",
+        "access_rules": [" "],
         "sections": [
-            {
-                "name": "Rescue Angela",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
+          {
+            "name": "Nanotech Boost",
+            "access_rules": [],
+            "visibility_rules": []
+          }
         ],
         "map_locations": [
-            {
-                "map": "Snivelak",
-                "x": "1545",
-                "y": "1426",
-                "size": 6
-            }
+          {
+            "map": "Snivelak",
+            "x": "1074",
+            "y": "411"
+          }
         ]
-    }
+      }
+    ],
+    "sections": [
+      {
+        "name": "Rescue Angela",
+        "access_rules": [],
+        "visibility_rules": []
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Snivelak",
+        "x": "1545",
+        "y": "1426"
+      }
+    ]
+  }
 ]
