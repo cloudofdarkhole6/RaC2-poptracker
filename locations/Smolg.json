@@ -16,8 +16,8 @@
         "map_locations": [
           {
             "map": "Smolg",
-            "x": "44",
-            "y": "1826"
+            "x": "397",
+            "y": "643"
           }
         ]
       },
@@ -26,16 +26,14 @@
         "access_rules": ["swingshot,levitator"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
           {
             "map": "Smolg",
-            "x": "808",
-            "y": "1200"
+            "x": "444",
+            "y": "264"
           }
         ]
       },
@@ -50,17 +48,29 @@
         "map_locations": [
           {
             "map": "Smolg",
-            "x": "2462",
-            "y": "914"
+            "x": "68",
+            "y": "484"
+          }
+        ]
+      },
+      {
+        "name": "Balloon Transmission",
+        "access_rules": ["$can_improved_jump,dynamo,electrolyzer"],
+        "sections": [
+          {
+            "name": "Balloon Transmission"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Smolg",
+            "x": "144",
+            "y": "379"
           }
         ]
       }
     ],
     "sections": [
-      {
-        "name": "Balloon Transmission",
-        "access_rules": ["$can_improved_jump,dynamo,electrolyzer"]
-      },
       {
         "name": "Mutant Crab",
         "access_rules": ["swingshot,levitator"]
@@ -69,8 +79,8 @@
     "map_locations": [
       {
         "map": "Smolg",
-        "x": "1984",
-        "y": "1100"
+        "x": "628",
+        "y": "584"
       }
     ]
   }

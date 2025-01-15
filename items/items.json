@@ -141,7 +141,12 @@
   },
   {
     "name": "platinumbolt",
-    "type": "toggle",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 100,
+    "increment": 1,
+    "initial_quantity": 0,
     "img": "images/items/platinumbolt.png",
     "img_mods": "",
     "codes": "platinumbolt"
@@ -265,7 +270,12 @@
   },
   {
     "name": "nanotechboost",
-    "type": "toggle",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 100,
+    "increment": 1,
+    "initial_quantity": 0,
     "img": "images/items/nanotechboost.png",
     "img_mods": "",
     "codes": "nanotechboost"

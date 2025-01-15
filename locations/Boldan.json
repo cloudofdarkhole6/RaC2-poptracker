@@ -16,8 +16,8 @@
         "map_locations": [
           {
             "map": "Boldan",
-            "x": "744",
-            "y": "1429"
+            "x": "502",
+            "y": "472"
           }
         ]
       },
@@ -32,8 +32,8 @@
         "map_locations": [
           {
             "map": "Boldan",
-            "x": "846",
-            "y": "2176"
+            "x": "515",
+            "y": "615"
           }
         ]
       },
@@ -42,14 +42,17 @@
         "access_rules": ["levitator,gravityboots,swingshot"],
         "sections": [
           {
+            "name": "Find Fizzwidget"
+          },
+          {
             "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
           {
             "map": "Boldan",
-            "x": "236",
-            "y": "1254"
+            "x": "687",
+            "y": "525"
           }
         ]
       },
@@ -64,23 +67,10 @@
         "map_locations": [
           {
             "map": "Boldan",
-            "x": "145",
-            "y": "2191"
+            "x": "410",
+            "y": "471"
           }
         ]
-      }
-    ],
-    "sections": [
-      {
-        "name": "Find Fizzwidget",
-        "access_rules": ["levitator,gravityboots,swingshot"]
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Boldan",
-        "x": "1772",
-        "y": "215"
       }
     ]
   }

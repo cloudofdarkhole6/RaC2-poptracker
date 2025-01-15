@@ -6,31 +6,22 @@
     "access_rules": ["hrugiscloudcoordinates"],
     "children": [
       {
-        "name": "Race",
+        "name": "Hrugis Cloud",
         "sections": [
           {
-            "name": "Platinum Bolt"
+            "name": "Destroy Defenses"
+          },
+          {
+            "name": "Race Platinum Bolt"
           }
         ],
         "map_locations": [
           {
-            "map": "Hrugis Cloud",
-            "x": "2301",
-            "y": "408"
+            "map": "Bogon",
+            "x": "490",
+            "y": "240"
           }
         ]
-      }
-    ],
-    "sections": [
-      {
-        "name": "Destroy Defenses"
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Hrugis Cloud",
-        "x": "78",
-        "y": "2157"
       }
     ]
   }

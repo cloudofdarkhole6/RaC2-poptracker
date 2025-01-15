@@ -15,8 +15,8 @@
         "map_locations": [
           {
             "map": "Notak",
-            "x": "1550",
-            "y": "1637"
+            "x": "382",
+            "y": "529"
           }
         ]
       },
@@ -30,8 +30,8 @@
         "map_locations": [
           {
             "map": "Notak",
-            "x": "1843",
-            "y": "321"
+            "x": "81",
+            "y": "538"
           }
         ]
       },
@@ -46,8 +46,8 @@
         "map_locations": [
           {
             "map": "Notak",
-            "x": "2224",
-            "y": "472"
+            "x": "371",
+            "y": "367"
           }
         ]
       },
@@ -61,17 +61,29 @@
         "map_locations": [
           {
             "map": "Notak",
-            "x": "2303",
-            "y": "321"
+            "x": "229",
+            "y": "505"
+          }
+        ]
+      },
+      {
+        "name": "Top of Pier",
+        "access_rules": ["$can_improved_jump,thermanator"],
+        "sections": [
+          {
+            "name": "Telescreen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Notak",
+            "x": "408",
+            "y": "343"
           }
         ]
       }
     ],
     "sections": [
-      {
-        "name": "Top of Pier Telescreen",
-        "access_rules": ["$can_improved_jump,thermanator"]
-      },
       {
         "name": "Worker Bots",
         "access_rules": ["$can_improved_jump,thermanator"]
@@ -80,8 +92,8 @@
     "map_locations": [
       {
         "map": "Notak",
-        "x": "1967",
-        "y": "909"
+        "x": "665",
+        "y": "514"
       }
     ]
   }

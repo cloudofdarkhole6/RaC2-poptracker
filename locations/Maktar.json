@@ -50,13 +50,24 @@
             "y": "115"
           }
         ]
+      },
+      {
+        "name": "Photo Booth",
+        "sections": [
+          {
+            "name": "Photo Booth"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Maktar",
+            "x": "449",
+            "y": "575"
+          }
+        ]
       }
     ],
     "sections": [
-      {
-        "name": "Photo Booth",
-        "access_rules": ["electrolyzer"]
-      },
       {
         "name": "Deactivate Jamming Array",
         "access_rules": ["tractorbeam"]

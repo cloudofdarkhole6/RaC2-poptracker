@@ -3,7 +3,7 @@
     "name": "Bogon",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": ["aranosprisoncoordinates,gravityboots,levitator,infiltrator"],
+    "access_rules": [""],
     "children": [
       {
         "name": "Feltzin",
@@ -35,18 +35,6 @@
             "y": "250"
           }
         ]
-      }
-    ],
-    "sections": [
-      {
-        "name": "Hrugis CLoud"
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Bogon",
-        "x": "350",
-        "y": "350"
       }
     ]
   }
