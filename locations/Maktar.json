@@ -3,16 +3,13 @@
     "name": "Maktar",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["maktarnebulacoordinates"],
     "children": [
       {
         "name": "Arena Challenge",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Electrolyzer",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Electrolyzer"
           }
         ],
         "map_locations": [
@@ -25,12 +22,10 @@
       },
       {
         "name": "Jamming Array",
-        "access_rules": [" "],
+        "access_rules": ["tractorbeam"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -43,12 +38,9 @@
       },
       {
         "name": "Crane",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -63,13 +55,11 @@
     "sections": [
       {
         "name": "Photo Booth",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["electrolyzer"]
       },
       {
         "name": "Deactivate Jamming Array",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["tractorbeam"]
       }
     ],
     "map_locations": [

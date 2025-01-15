@@ -3,16 +3,14 @@
     "name": "Yeedil",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["yeedilcoordinates"],
     "children": [
       {
         "name": "Bridge Grindrail",
-        "access_rules": [" "],
+        "access_rules": ["grindboots"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -25,7 +23,7 @@
       },
       {
         "name": "Tractor Pillar",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,swingshot,hypnotizer,dynamo,infiltrator,electrolyzer,tractorbeam,grindboots"],
         "sections": [
           {
             "name": "Platinum Bolt",

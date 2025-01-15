@@ -1,5 +1,11 @@
 [
   {
+    "name": "Bogon",
+    "location_size": 20,
+    "location_border_thickness": 1,
+    "img": "images/maps/Bogon.png"
+  },
+  {
     "name": "Aranos",
     "location_size": 20,
     "location_border_thickness": 1,
@@ -36,28 +42,10 @@
     "img": "images/maps/Endako.png"
   },
   {
-    "name": "Feltzin",
-    "location_size": 20,
-    "location_border_thickness": 1,
-    "img": "images/maps/Feltzin.png"
-  },
-  {
-    "name": "Gorn",
-    "location_size": 20,
-    "location_border_thickness": 1,
-    "img": "images/maps/Gorn.png"
-  },
-  {
     "name": "Grelbin",
     "location_size": 20,
     "location_border_thickness": 1,
     "img": "images/maps/Grelbin.png"
-  },
-  {
-    "name": "Hrugis Cloud",
-    "location_size": 20,
-    "location_border_thickness": 1,
-    "img": "images/maps/Hrugis Cloud.png"
   },
   {
     "name": "Joba",

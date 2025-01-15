@@ -3,6 +3,15 @@
     "type": "tabbed",
     "tabs": [
       {
+        "title": "Bogon",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Bogon"
+          ]
+        }
+      },
+      {
         "title": "Aranos",
         "content": {
           "type": "map",
@@ -187,6 +196,15 @@
   "tabbed_maps_vertical": {
     "type": "tabbed",
     "tabs": [
+      {
+        "title": "Bogon",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Bogon"
+          ]
+        }
+      },
       {
         "title": "Aranos",
         "content": {

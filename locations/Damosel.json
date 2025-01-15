@@ -3,16 +3,14 @@
     "name": "Damosel",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["damoselcoordinates"],
     "children": [
       {
         "name": "Train Rails",
-        "access_rules": [" "],
+        "access_rules": ["grindboots"],
         "sections": [
           {
-            "name": "Hypnomatic Part",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Hypnomatic Part"
           }
         ],
         "map_locations": [
@@ -25,12 +23,9 @@
       },
       {
         "name": "Defeat Mothership",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Mapper",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Mapper"
           }
         ],
         "map_locations": [
@@ -43,12 +38,10 @@
       },
       {
         "name": "Frozen Fountain",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,swingshot,thermanator,grindboots"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -61,12 +54,10 @@
       },
       {
         "name": "Pyramid",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,swingshot,thermanator,hypnomatic"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -81,15 +72,14 @@
     "sections": [
       {
         "name": "Hypnotist",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["$can_improved_jump,swingshot,thermanator,hypnomaticpart:3"]
       }
     ],
     "map_locations": [
       {
         "map": "Damosel",
-        "x": "2192",
-        "y": "1705"
+        "x": "500",
+        "y": "500"
       }
     ]
   }

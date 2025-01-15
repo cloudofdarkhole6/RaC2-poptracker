@@ -3,16 +3,14 @@
     "name": "Boldan",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["boldancoordinates"],
     "children": [
       {
         "name": "Spiderbot Alley",
-        "access_rules": [" "],
+        "access_rules": ["levitator"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -25,12 +23,10 @@
       },
       {
         "name": "Floating Platform",
-        "access_rules": [" "],
+        "access_rules": ["levitator,gravityboots"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -43,12 +39,10 @@
       },
       {
         "name": "Upper Dome",
-        "access_rules": [" "],
+        "access_rules": ["levitator,gravityboots,swingshot"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -61,12 +55,10 @@
       },
       {
         "name": "Fountain",
-        "access_rules": [" "],
+        "access_rules": ["levitator"],
         "sections": [
           {
-            "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [
@@ -81,8 +73,7 @@
     "sections": [
       {
         "name": "Find Fizzwidget",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["levitator,gravityboots,swingshot"]
       }
     ],
     "map_locations": [

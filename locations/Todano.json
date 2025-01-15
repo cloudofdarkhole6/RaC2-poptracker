@@ -3,16 +3,14 @@
     "name": "Todano",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["todanocoordinates"],
     "children": [
       {
         "name": "Stuart Zurgo Trade",
-        "access_rules": [" "],
+        "access_rules": ["electrolyzer,tractorbeam,qwarkstatuette"],
         "sections": [
           {
-            "name": "Armor Magnetizer",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Armor Magnetizer"
           }
         ],
         "map_locations": [
@@ -25,12 +23,10 @@
       },
       {
         "name": "Near Stuart Zurgo",
-        "access_rules": [" "],
+        "access_rules": ["electrolyzer,tractorbeam"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -43,12 +39,9 @@
       },
       {
         "name": "End of Tour",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -61,12 +54,10 @@
       },
       {
         "name": "Spiderbot Conveyor",
-        "access_rules": [" "],
+        "access_rules": ["electrolyzer,tractorbeam"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -79,12 +70,10 @@
       },
       {
         "name": "Rocket Silo",
-        "access_rules": [" "],
+        "access_rules": ["electrolyzer,infiltrator"],
         "sections": [
           {
-            "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [
@@ -99,8 +88,7 @@
     "sections": [
       {
         "name": "Search Rocket Silo",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["$can_improved_jump,electrolyzer,infiltrator"]
       }
     ],
     "map_locations": [

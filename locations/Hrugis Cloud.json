@@ -3,16 +3,13 @@
     "name": "Hrugis Cloud",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["hrugiscloudcoordinates"],
     "children": [
       {
         "name": "Race",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -26,9 +23,7 @@
     ],
     "sections": [
       {
-        "name": "Destroy Defenses",
-        "access_rules": [],
-        "visibility_rules": []
+        "name": "Destroy Defenses"
       }
     ],
     "map_locations": [

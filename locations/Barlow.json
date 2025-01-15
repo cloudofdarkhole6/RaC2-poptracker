@@ -3,16 +3,14 @@
     "name": "Barlow",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["barlowcoordinates"],
     "children": [
       {
         "name": "Inventor",
-        "access_rules": [" "],
+        "access_rules": ["swingshot"],
         "sections": [
           {
-            "name": "Thermanator",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Thermanator"
           }
         ],
         "map_locations": [
@@ -25,23 +23,16 @@
       },
       {
         "name": "Hoverbike Race",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,electrolyzer"],
         "sections": [
           {
-            "name": "Biker Helmet",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Biker Helmet"
           },
           {
-            "name": "Hoverbike Race Transmission",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "name": "Hoverbike Race Transmission"
           },
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -54,12 +45,10 @@
       },
       {
         "name": "Hound Cave",
-        "access_rules": [" "],
+        "access_rules": ["swingshot"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [

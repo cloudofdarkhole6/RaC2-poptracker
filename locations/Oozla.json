@@ -3,16 +3,13 @@
     "name": "Oozla",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["oozlacoordinates"],
     "children": [
       {
         "name": "Outside Megacorp Store",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Dynamo",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Dynamo"
           }
         ],
         "map_locations": [
@@ -25,12 +22,9 @@
       },
       {
         "name": "Megacorp Scientist",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Tractor Beam",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Tractor Beam"
           }
         ],
         "map_locations": [
@@ -43,12 +37,10 @@
       },
       {
         "name": "Tractor Puzzle",
-        "access_rules": [" "],
+        "access_rules": ["tractorbeam"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -61,12 +53,10 @@
       },
       {
         "name": "Swamp Ruins",
-        "access_rules": [" "],
+        "access_rules": ["dynamo"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -79,12 +69,10 @@
       },
       {
         "name": "Swamp Monster II",
-        "access_rules": [" "],
+        "access_rules": ["dynamo,gravityboots"],
         "sections": [
           {
-            "name": "Box Breaker",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Box Breaker"
           }
         ],
         "map_locations": [
@@ -99,8 +87,7 @@
     "sections": [
       {
         "name": "End of Store Cutscene",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["dynamo"]
       }
     ],
     "map_locations": [

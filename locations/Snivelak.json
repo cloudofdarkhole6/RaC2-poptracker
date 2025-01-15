@@ -3,18 +3,14 @@
     "name": "Snivelak",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [
-      " "
-    ],
+    "access_rules": ["snivelakcoordinates"],
     "children": [
       {
         "name": "Dynamo Platforms",
-        "access_rules": [" "],
+        "access_rules": ["swingshot,grindboots,gravityboots,dynamo,heli-pack"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -27,12 +23,10 @@
       },
       {
         "name": "Swingshot Tower",
-        "access_rules": [" "],
+        "access_rules": ["swingshot,heli-pack"],
         "sections": [
           {
-            "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [
@@ -47,8 +41,7 @@
     "sections": [
       {
         "name": "Rescue Angela",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["swingshot,grindboots,gravityboots,dynamo"]
       }
     ],
     "map_locations": [

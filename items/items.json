@@ -176,7 +176,12 @@
   },
   {
     "name": "hypnomaticpart",
-    "type": "toggle",
+    "type": "consumable",
+    "allow_disabled": true,
+    "min_quantity": 0,
+    "max_quantity": 3,
+    "increment": 1,
+    "initial_quantity": 0,
     "img": "images/items/hypnomaticpart.png",
     "img_mods": "",
     "codes": "hypnomaticpart"

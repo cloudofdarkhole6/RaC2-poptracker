@@ -3,16 +3,13 @@
     "name": "Feltzin",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["feltzincoordinates"],
     "children": [
       {
         "name": "Race",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -25,12 +22,9 @@
       },
       {
         "name": "Cargo Bay",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [
@@ -44,9 +38,7 @@
     ],
     "sections": [
       {
-        "name": "Defeat Thug Ships",
-        "access_rules": [],
-        "visibility_rules": []
+        "name": "Defeat Thug Ships"
       }
     ],
     "map_locations": [

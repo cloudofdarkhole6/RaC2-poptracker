@@ -3,21 +3,17 @@
     "name": "Tabora",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["taboracoordinates,swingshot,heli-pack"],
     "children": [
       {
         "name": "Underground Mines",
-        "access_rules": [" "],
+        "access_rules": ["thermanator"],
         "sections": [
           {
-            "name": "Glider",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Glider"
           },
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -30,12 +26,10 @@
       },
       {
         "name": "Canyon Glide",
-        "access_rules": [" "],
+        "access_rules": ["thermanator,glider"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -48,12 +42,9 @@
       },
       {
         "name": "Northeast Desert",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -66,12 +57,10 @@
       },
       {
         "name": "Canyon Glide Pillar",
-        "access_rules": [" "],
+        "access_rules": ["thermanator,glider"],
         "sections": [
           {
-            "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [
@@ -85,9 +74,7 @@
     ],
     "sections": [
       {
-        "name": "Meet Angela",
-        "access_rules": [],
-        "visibility_rules": []
+        "name": "Meet Angela"
       }
     ],
     "map_locations": [

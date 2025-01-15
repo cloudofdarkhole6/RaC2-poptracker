@@ -3,18 +3,16 @@
     "name": "Joba",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["jobacoordinates"],
     "children": [
       {
         "name": "First Hoverbike Race",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
-        "access_rules": [" "],
+        "access_rules": ["swingshot"],
         "sections": [
           {
-            "name": "Charge Boots",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Charge Boots"
           }
         ],
         "map_locations": [
@@ -27,7 +25,7 @@
       },
       {
         "name": "Shady Salesman",
-        "access_rules": [" "],
+        "access_rules": ["dynamo"],
         "sections": [
           {
             "name": "Levitator",
@@ -45,12 +43,10 @@
       },
       {
         "name": "Arena Battle",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,dynamo,levitator"],
         "sections": [
           {
-            "name": "Gravity Boots",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Gravity Boots"
           }
         ],
         "map_locations": [
@@ -63,12 +59,10 @@
       },
       {
         "name": "Arena Cage Match",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,dynamo,levitator"],
         "sections": [
           {
-            "name": "Infiltrator",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Infiltrator"
           }
         ],
         "map_locations": [
@@ -81,12 +75,10 @@
       },
       {
         "name": "Hidden Cliff",
-        "access_rules": [" "],
+        "access_rules": ["dynamo,swingshot"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -99,7 +91,7 @@
       },
       {
         "name": "Levitator Tower",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,dynamo,levitator"],
         "sections": [
           {
             "name": "Platinum Bolt",
@@ -117,12 +109,10 @@
       },
       {
         "name": "Hoverbike Race Shortcut",
-        "access_rules": [" "],
+        "access_rules": ["swingshot"],
         "sections": [
           {
-            "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [
@@ -135,12 +125,10 @@
       },
       {
         "name": "Timed Dynamo Course",
-        "access_rules": [" "],
+        "access_rules": ["dynamo"],
         "sections": [
           {
-            "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [

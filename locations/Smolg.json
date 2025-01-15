@@ -3,18 +3,14 @@
     "name": "Smolg",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [
-      " "
-    ],
+    "access_rules": ["smolgcoordinates"],
     "children": [
       {
         "name": "Distribution Facility End",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,dynamo,electrolyzer,grindboots"],
         "sections": [
           {
-            "name": "Hypnomatic Part",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Hypnomatic Part"
           }
         ],
         "map_locations": [
@@ -27,7 +23,7 @@
       },
       {
         "name": "Floating Platform",
-        "access_rules": [" "],
+        "access_rules": ["swingshot,levitator"],
         "sections": [
           {
             "name": "Platinum Bolt",
@@ -45,12 +41,10 @@
       },
       {
         "name": "Warehouse",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,dynmo"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -65,13 +59,11 @@
     "sections": [
       {
         "name": "Balloon Transmission",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["$can_improved_jump,dynamo,electrolyzer"]
       },
       {
         "name": "Mutant Crab",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["swingshot,levitator"]
       }
     ],
     "map_locations": [

@@ -3,16 +3,14 @@
     "name": "Siberius",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["siberiuscoordinates"],
     "children": [
       {
         "name": "Flamebot Ledge",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump","tractorbeam"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -25,12 +23,10 @@
       },
       {
         "name": "Fenced Area",
-        "access_rules": [" "],
+        "access_rules": ["heli-pack"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -45,8 +41,7 @@
     "sections": [
       {
         "name": "Defeat Thief",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["swingshot"]
       }
     ],
     "map_locations": [

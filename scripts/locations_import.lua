@@ -1,3 +1,4 @@
+Tracker:AddLocations("locations/Bogon.json")
 Tracker:AddLocations("locations/Aranos.json")
 Tracker:AddLocations("locations/Barlow.json")
 Tracker:AddLocations("locations/Boldan.json")

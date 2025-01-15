@@ -3,16 +3,13 @@
     "name": "Notak",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["notakcoordinates"],
     "children": [
       {
         "name": "Behind Building",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -25,12 +22,9 @@
       },
       {
         "name": "Promenade Sign",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -43,12 +37,10 @@
       },
       {
         "name": "Timed Dynamo",
-        "access_rules": [" "],
+        "access_rules": ["$can_improved_jump,thermanator,dynamo"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -61,12 +53,9 @@
       },
       {
         "name": "Promenade End",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [
@@ -81,13 +70,11 @@
     "sections": [
       {
         "name": "Top of Pier Telescreen",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["$can_improved_jump,thermanator"]
       },
       {
         "name": "Worker Bots",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["$can_improved_jump,thermanator"]
       }
     ],
     "map_locations": [

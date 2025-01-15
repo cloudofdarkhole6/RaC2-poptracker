@@ -3,21 +3,16 @@
     "name": "Endako",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": [" "],
+    "access_rules": ["endakocoordinates"],
     "children": [
       {
         "name": "Clank's Apartment",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Swingshot",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Swingshot"
           },
           {
-            "name": "Grindboots",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Grindboots"
           }
         ],
         "map_locations": [
@@ -30,12 +25,9 @@
       },
       {
         "name": "Ledge",
-        "access_rules": [" "],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
@@ -48,17 +40,14 @@
       },
       {
         "name": "Crane",
-        "access_rules": [" "],
+        "access_rules": ["electrolyzer"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           },
           {
             "name": "Nanotech Boost",
-            "access_rules": [],
-            "visibility_rules": []
+            "access_rules": ["infiltrator"]
           }
         ],
         "map_locations": [
@@ -73,18 +62,15 @@
     "sections": [
       {
         "name": "Rescue Clank Heli-Pack",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["electrolyzer"]
       },
       {
         "name": "Rescue Clank Thruster-Pack",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["electrolyzer"]
       },
       {
         "name": "Rescue Clank Hydro-Pack",
-        "access_rules": [],
-        "visibility_rules": []
+        "access_rules": ["electrolyzer"]
       }
     ],
     "map_locations": [
