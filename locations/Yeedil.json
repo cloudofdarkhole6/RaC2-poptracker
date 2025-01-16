@@ -16,26 +16,24 @@
         "map_locations": [
           {
             "map": "Yeedil",
-            "x": "450",
-            "y": "1082"
+            "x": "560",
+            "y": "650"
           }
         ]
       },
       {
         "name": "Tractor Pillar",
-        "access_rules": ["$can_improved_jump,swingshot,hypnotizer,dynamo,infiltrator,electrolyzer,tractorbeam,grindboots"],
+        "access_rules": ["$can_improved_jump,swingshot,hypnomatic,dynamo,infiltrator,electrolyzer,tractorbeam,grindboots"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
           {
             "map": "Yeedil",
-            "x": "1523",
-            "y": "1008"
+            "x": "520",
+            "y": "260"
           }
         ]
       }

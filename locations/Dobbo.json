@@ -16,8 +16,8 @@
         "map_locations": [
           {
             "map": "Dobbo",
-            "x": "2387",
-            "y": "1460"
+            "x": "785",
+            "y": "541"
           }
         ]
       },
@@ -32,8 +32,8 @@
         "map_locations": [
           {
             "map": "Dobbo",
-            "x": "831",
-            "y": "1029"
+            "x": "244",
+            "y": "408"
           }
         ]
       },
@@ -48,8 +48,24 @@
         "map_locations": [
           {
             "map": "Dobbo",
-            "x": "2452",
-            "y": "746"
+            "x": "449",
+            "y": "163"
+          }
+        ]
+      },
+      {
+        "name": "Facility Terminal",
+        "access_rules": ["$can_improved_jump,swingshot,glider,electrolyzer"],
+        "sections": [
+          {
+            "name": "Facility Terminal"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dobbo",
+            "x": "434",
+            "y": "71"
           }
         ]
       }
@@ -58,17 +74,13 @@
       {
         "name": "Defeat Thug Leader",
         "access_rules": ["$can_improved_jump,dynamo,swingshot"]
-      },
-      {
-        "name": "Facility Terminal",
-        "access_rules": ["$can_improved_jump,swingshot,glider,electrolyzer"]
       }
     ],
     "map_locations": [
       {
         "map": "Dobbo",
-        "x": "630",
-        "y": "673"
+        "x": "777",
+        "y": "264"
       }
     ]
   }

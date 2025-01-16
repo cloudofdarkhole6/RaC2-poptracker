@@ -6,35 +6,6 @@
     "access_rules": [""],
     "children": [
       {
-        "name": "Feltzin",
-        "sections": [
-          {
-            "name": "Qwark Statuette"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Bogon",
-            "x": "200",
-            "y": "200"
-          }
-        ]
-      },
-      {
-        "name": "Gorn",
-        "sections": [
-          {
-            "name": "Platinum Bolt",
-            "access_rules": ["heli-pack"]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Bogon",
-            "x": "250",
-            "y": "250"
-          }
-        ]
       }
     ]
   }

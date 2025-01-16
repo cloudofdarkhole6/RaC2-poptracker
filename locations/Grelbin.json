@@ -16,8 +16,8 @@
         "map_locations": [
           {
             "map": "Grelbin",
-            "x": "198",
-            "y": "547"
+            "x": "392",
+            "y": "560"
           }
         ]
       },
@@ -32,26 +32,24 @@
         "map_locations": [
           {
             "map": "Grelbin",
-            "x": "1147",
-            "y": "1436"
+            "x": "543",
+            "y": "361"
           }
         ]
       },
       {
         "name": "Underwater Tunnel",
-        "access_rules": ["hypnotizer"],
+        "access_rules": ["hypnomatic"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
           {
             "map": "Grelbin",
-            "x": "2423",
-            "y": "956"
+            "x": "523",
+            "y": "676"
           }
         ]
       },
@@ -60,16 +58,14 @@
         "access_rules": ["glider,infiltrator,hypnomatic"],
         "sections": [
           {
-            "name": "Platinum Bolt",
-            "access_rules": [],
-            "visibility_rules": []
+            "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
           {
             "map": "Grelbin",
-            "x": "150",
-            "y": "1129"
+            "x": "410",
+            "y": "660"
           }
         ]
       }
@@ -83,8 +79,8 @@
     "map_locations": [
       {
         "map": "Grelbin",
-        "x": "462",
-        "y": "256"
+        "x": "543",
+        "y": "617"
       }
     ]
   }

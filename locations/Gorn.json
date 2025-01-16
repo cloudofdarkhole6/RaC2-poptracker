@@ -6,31 +6,22 @@
     "access_rules": ["gorncoordinates"],
     "children": [
       {
-        "name": "Race",
+        "name": "Gorn",
         "sections": [
+          {
+            "name": "Defeat Thug Fleet"
+          },
           {
             "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
           {
-            "map": "Gorn",
-            "x": "2115",
-            "y": "1872"
+            "map": "Bogon",
+            "x": "100",
+            "y": "200"
           }
         ]
-      }
-    ],
-    "sections": [
-      {
-        "name": "Defeat Thug Fleet"
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Gorn",
-        "x": "904",
-        "y": "221"
       }
     ]
   }

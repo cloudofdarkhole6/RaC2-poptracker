@@ -6,20 +6,23 @@
     "access_rules": ["jobacoordinates"],
     "children": [
       {
-        "name": "First Hoverbike Race",
+        "name": "Hoverbike Race",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "access_rules": ["swingshot"],
         "sections": [
           {
             "name": "Charge Boots"
+          },
+          {
+            "name": "Nanotech Boost"
           }
         ],
         "map_locations": [
           {
             "map": "Joba",
-            "x": "1074",
-            "y": "368"
+            "x": "720",
+            "y": "720"
           }
         ]
       },
@@ -36,8 +39,8 @@
         "map_locations": [
           {
             "map": "Joba",
-            "x": "1837",
-            "y": "1146"
+            "x": "300",
+            "y": "323"
           }
         ]
       },
@@ -47,20 +50,7 @@
         "sections": [
           {
             "name": "Gravity Boots"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Joba",
-            "x": "1921",
-            "y": "2170"
-          }
-        ]
-      },
-      {
-        "name": "Arena Cage Match",
-        "access_rules": ["$can_improved_jump,dynamo,levitator"],
-        "sections": [
+          },
           {
             "name": "Infiltrator"
           }
@@ -68,8 +58,8 @@
         "map_locations": [
           {
             "map": "Joba",
-            "x": "1872",
-            "y": "1731"
+            "x": "560",
+            "y": "180"
           }
         ]
       },
@@ -84,8 +74,8 @@
         "map_locations": [
           {
             "map": "Joba",
-            "x": "2060",
-            "y": "57"
+            "x": "690",
+            "y": "490"
           }
         ]
       },
@@ -102,24 +92,8 @@
         "map_locations": [
           {
             "map": "Joba",
-            "x": "899",
-            "y": "76"
-          }
-        ]
-      },
-      {
-        "name": "Hoverbike Race Shortcut",
-        "access_rules": ["swingshot"],
-        "sections": [
-          {
-            "name": "Nanotech Boost"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Joba",
-            "x": "568",
-            "y": "459"
+            "x": "340",
+            "y": "300"
           }
         ]
       },
@@ -134,8 +108,8 @@
         "map_locations": [
           {
             "map": "Joba",
-            "x": "154",
-            "y": "2104"
+            "x": "660",
+            "y": "590"
           }
         ]
       }

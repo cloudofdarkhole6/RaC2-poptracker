@@ -3,49 +3,28 @@
     "name": "Feltzin",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": ["feltzincoordinates"],
+    "access_rules": ["feltzinsystemcoordinates"],
     "children": [
       {
-        "name": "Race",
+        "name": "Feltzin",
         "sections": [
           {
             "name": "Platinum Bolt"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Feltzin",
-            "x": "702",
-            "y": "2426"
-          }
-        ]
-      },
-      {
-        "name": "Cargo Bay",
-        "sections": [
+          },
           {
             "name": "Nanotech Boost"
+          },
+          {
+            "name": "Defeat Thug Ships"
           }
         ],
         "map_locations": [
           {
-            "map": "Feltzin",
-            "x": "1284",
-            "y": "2478"
+            "map": "Bogon",
+            "x": "200",
+            "y": "200"
           }
         ]
-      }
-    ],
-    "sections": [
-      {
-        "name": "Defeat Thug Ships"
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Feltzin",
-        "x": "2431",
-        "y": "1643"
       }
     ]
   }

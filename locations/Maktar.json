@@ -25,14 +25,17 @@
         "access_rules": ["tractorbeam"],
         "sections": [
           {
+            "name": "Deactivate Jamming Array"
+          },
+          {
             "name": "Platinum Bolt"
           }
         ],
         "map_locations": [
           {
             "map": "Maktar",
-            "x": "2013",
-            "y": "625"
+            "x": "630",
+            "y": "810"
           }
         ]
       },
@@ -65,19 +68,6 @@
             "y": "575"
           }
         ]
-      }
-    ],
-    "sections": [
-      {
-        "name": "Deactivate Jamming Array",
-        "access_rules": ["tractorbeam"]
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Maktar",
-        "x": "1599",
-        "y": "942"
       }
     ]
   }

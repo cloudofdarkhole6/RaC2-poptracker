@@ -145,8 +145,12 @@ function onItem(index, item_id, item_name, player_number)
   end
 	local object = Tracker:FindObjectForCode(value[1])
 	if object then
-		object.Active = true
-    table.insert(OBTAINED_ITEMS, value[1])
+    	    if object.Type == "toggle" then
+                object.Active = true
+    		elseif object.Type == "consumable" then
+    		    object.AcquiredCount = object.AcquiredCount + object.Increment
+    		end
+        table.insert(OBTAINED_ITEMS, value[1])
   elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("onItem: could not find object for code %s", v[1]))
 	end
