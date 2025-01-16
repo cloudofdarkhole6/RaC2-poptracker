@@ -39,7 +39,7 @@ ITEM_MAPPING = {
 	[118] = {"damoselcoordinates", "toggle"},
 	[119] = {"grelbincoordinates", "toggle"},
 	[120] = {"yeedilcoordinates", "toggle"},
-	[80] = {"platinumbolt", "toggle"},
-	[81] = {"nanotechboost", "toggle"},
-	[82] = {"hypnomaticpart", "toggle"},
+	[80] = {"platinumbolt", "consumable"},
+	[81] = {"nanotechboost", "consumable"},
+	[82] = {"hypnomaticpart", "consumable"},
 }

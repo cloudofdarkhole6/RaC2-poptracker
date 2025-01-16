@@ -12,101 +12,11 @@
         }
       },
       {
-        "title": "Aranos",
+        "title": "Oozla",
         "content": {
           "type": "map",
           "maps": [
-            "Aranos"
-          ]
-        }
-      },
-      {
-        "title": "Barlow",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Barlow"
-          ]
-        }
-      },
-      {
-        "title": "Boldan",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Boldan"
-          ]
-        }
-      },
-      {
-        "title": "Damosel",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Damosel"
-          ]
-        }
-      },
-      {
-        "title": "Dobbo",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Dobbo"
-          ]
-        }
-      },
-      {
-        "title": "Endako",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Endako"
-          ]
-        }
-      },
-      {
-        "title": "Feltzin",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Feltzin"
-          ]
-        }
-      },
-      {
-        "title": "Gorn",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Gorn"
-          ]
-        }
-      },
-      {
-        "title": "Grelbin",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Grelbin"
-          ]
-        }
-      },
-      {
-        "title": "Hrugis Cloud",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Hrugis Cloud"
-          ]
-        }
-      },
-      {
-        "title": "Joba",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Joba"
+            "Oozla"
           ]
         }
       },
@@ -120,97 +30,11 @@
         }
       },
       {
-        "title": "Notak",
+        "title": "Endako",
         "content": {
           "type": "map",
           "maps": [
-            "Notak"
-          ]
-        }
-      },
-      {
-        "title": "Oozla",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Oozla"
-          ]
-        }
-      },
-      {
-        "title": "Siberius",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Siberius"
-          ]
-        }
-      },
-      {
-        "title": "Smolg",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Smolg"
-          ]
-        }
-      },
-      {
-        "title": "Snivelak",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Snivelak"
-          ]
-        }
-      },
-      {
-        "title": "Tabora",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Tabora"
-          ]
-        }
-      },
-      {
-        "title": "Todano",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Todano"
-          ]
-        }
-      },
-      {
-        "title": "Yeedil",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Yeedil"
-          ]
-        }
-      }
-    ]
-  },
-  "tabbed_maps_vertical": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Bogon",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Bogon"
-          ]
-        }
-      },
-      {
-        "title": "Aranos",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Aranos"
+            "Endako"
           ]
         }
       },
@@ -224,110 +48,11 @@
         }
       },
       {
-        "title": "Boldan",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Boldan"
-          ]
-        }
-      },
-      {
-        "title": "Damosel",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Damosel"
-          ]
-        }
-      },
-      {
-        "title": "Dobbo",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Dobbo"
-          ]
-        }
-      },
-      {
-        "title": "Endako",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Endako"
-          ]
-        }
-      },
-      {
-        "title": "Feltzin",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Feltzin"
-          ]
-        }
-      },
-      {
-        "title": "Gorn",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Gorn"
-          ]
-        }
-      },
-      {
-        "title": "Grelbin",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Grelbin"
-          ]
-        }
-      },
-      {
-        "title": "Hrugis Cloud",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Hrugis Cloud"
-          ]
-        }
-      },
-      {
-        "title": "Joba",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Joba"
-          ]
-        }
-      },
-      {
-        "title": "Maktar",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Maktar"
-          ]
-        }
-      },
-      {
         "title": "Notak",
         "content": {
           "type": "map",
           "maps": [
             "Notak"
-          ]
-        }
-      },
-      {
-        "title": "Oozla",
-        "content": {
-          "type": "map",
-          "maps": [
-            "Oozla"
           ]
         }
       },
@@ -341,11 +66,56 @@
         }
       },
       {
-        "title": "Smolg",
+        "title": "Tabora",
         "content": {
           "type": "map",
           "maps": [
-            "Smolg"
+            "Tabora"
+          ]
+        }
+      },
+      {
+        "title": "Dobbo",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Dobbo"
+          ]
+        }
+      },
+      {
+        "title": "Joba",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Joba"
+          ]
+        }
+      },
+      {
+        "title": "Todano",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Todano"
+          ]
+        }
+      },
+      {
+        "title": "Boldan",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Boldan"
+          ]
+        }
+      },
+      {
+        "title": "Aranos",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Aranos"
           ]
         }
       },
@@ -359,20 +129,29 @@
         }
       },
       {
-        "title": "Tabora",
+        "title": "Smolg",
         "content": {
           "type": "map",
           "maps": [
-            "Tabora"
+            "Smolg"
           ]
         }
       },
       {
-        "title": "Todano",
+        "title": "Damosel",
         "content": {
           "type": "map",
           "maps": [
-            "Todano"
+            "Damosel"
+          ]
+        }
+      },
+      {
+        "title": "Grelbin",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Grelbin"
           ]
         }
       },

@@ -20,144 +20,36 @@
             "rows": [
               [
                 "heli-pack",
-                "damoselcoordinates",
-                "smolgcoordinates",
-                "endakocoordinates",
-                "grindboots",
-                "tractorbeam",
-                "snivelakcoordinates"
-              ],
-              [
-                "mapper",
-                "jobacoordinates",
-                "feltzinsystemcoordinates",
                 "thruster-pack",
-                "electrolyzer",
-                "oozlacoordinates",
-                "hrugiscloudcoordinates"
-              ],
-              [
-                "thermanator",
-                "boxbreaker",
-                "chargeboots",
-                "glider",
-                "yeedilcoordinates",
-                "todanocoordinates",
-                "platinumbolt"
+                "hydro-pack",
+                "grindboots",
+                "gravityboots",
+                "chargeboots"
               ],
               [
                 "dynamo",
-                "aranosprisoncoordinates",
-                "qwarkstatuette",
-                "infiltrator",
-                "hypnomaticpart",
-                "hypnomatic",
-                "bikerhelmet"
-              ],
-              [
                 "swingshot",
-                "armormagnetizer",
-                "siberiuscoordinates",
-                "gorncoordinates",
-                "grelbincoordinates",
-                "barlowcoordinates",
-                "dobbocoordinates"
-              ],
-              [
-                "taboracoordinates",
-                "boldancoordinates",
-                "nanotechboost",
-                "notakcoordinates",
-                "maktarnebulacoordinates",
-                "gravityboots",
-                "hydro-pack"
-              ],
-              [
-                "levitator",
-                "update"
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "shared_item_grid_vertical": {
-    "type": "array",
-    "orientation": "vertical",
-    "margin": "0,0",
-    "content": [
-      {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "2, 2",
-            "h_alignment": "left",
-            "item_h_alignment": "center",
-            "item_v_alignment": "center",
-            "item_height": 36,
-            "item_width": 36,
-            "rows": [
-              [
-                "heli-pack",
-                "damoselcoordinates",
-                "smolgcoordinates",
-                "endakocoordinates",
-                "grindboots",
                 "tractorbeam",
-                "snivelakcoordinates"
-              ],
-              [
-                "mapper",
-                "jobacoordinates",
-                "feltzinsystemcoordinates",
-                "thruster-pack",
-                "electrolyzer",
-                "oozlacoordinates",
-                "hrugiscloudcoordinates"
-              ],
-              [
                 "thermanator",
-                "boxbreaker",
-                "chargeboots",
-                "glider",
-                "yeedilcoordinates",
-                "todanocoordinates",
+                "hypnomatic",
                 "platinumbolt"
               ],
               [
-                "dynamo",
-                "aranosprisoncoordinates",
-                "qwarkstatuette",
+                "electrolyzer",
                 "infiltrator",
-                "hypnomaticpart",
-                "hypnomatic",
-                "bikerhelmet"
-              ],
-              [
-                "swingshot",
-                "armormagnetizer",
-                "siberiuscoordinates",
-                "gorncoordinates",
-                "grelbincoordinates",
-                "barlowcoordinates",
-                "dobbocoordinates"
-              ],
-              [
-                "taboracoordinates",
-                "boldancoordinates",
-                "nanotechboost",
-                "notakcoordinates",
-                "maktarnebulacoordinates",
-                "gravityboots",
-                "hydro-pack"
-              ],
-              [
+                "glider",
                 "levitator",
-                "update"
+                "qwarkstatuette",
+                "hypnomaticpart"
+
+              ],
+              [
+                "boxbreaker",
+                "armormagnetizer",
+                "mapper",
+                "bikerhelmet",
+                "",
+                "nanotechboost"
               ]
             ]
           }
