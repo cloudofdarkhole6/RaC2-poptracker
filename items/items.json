@@ -181,15 +181,36 @@
   },
   {
     "name": "Hypnomatic Parts",
-    "type": "consumable",
-    "allow_disabled": true,
-    "min_quantity": 0,
-    "max_quantity": 3,
-    "increment": 1,
-    "initial_quantity": 0,
-    "img": "images/items/hypnomaticpart.png",
-    "img_mods": "",
-    "codes": "hypnomaticpart"
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages":
+    [
+      {
+        "img": "/images/items/hypnomaticpart.png",
+        "codes": "hypnomaticpart,hp0",
+        "inherit_codes": false,
+        "name": "Hypnomatic Parts: 0"
+      },
+      {
+        "img": "/images/items/hypnomaticpart1.png",
+        "codes": "hypnomaticpart,hp1",
+        "inherit_codes": false,
+        "name": "Hypnomatic Part: 1"
+      },
+      {
+        "img": "/images/items/hypnomaticpart2.png",
+        "codes": "hypnomaticpart,hp2",
+        "inherit_codes": false,
+        "name": "Hypnomatic Parts: 2"
+      },
+      {
+        "img": "/images/items/hypnomaticpartfull.png",
+        "codes": "hypnomaticpart,hpfull",
+        "inherit_codes": false,
+        "name": "Hypnomatic Part: 3"
+      }
+    ]
   },
   {
     "name": "Hypnomatic",

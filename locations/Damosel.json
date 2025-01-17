@@ -72,7 +72,7 @@
     "sections": [
       {
         "name": "Hypnotist",
-        "access_rules": ["$can_improved_jump,swingshot,thermanator,hypnomaticpart:3"]
+        "access_rules": ["$can_improved_jump,swingshot,thermanator,hpfull"]
       }
     ],
     "map_locations": [

@@ -41,5 +41,5 @@ ITEM_MAPPING = {
 	[120] = {"yeedilcoordinates", "toggle"},
 	[80] = {"platinumbolt", "consumable"},
 	[81] = {"nanotechboost", "consumable"},
-	[82] = {"hypnomaticpart", "consumable"},
+	[82] = {"hypnomaticpart", "progressive"},
 }
