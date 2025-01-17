@@ -90,25 +90,23 @@ function onClear(slot_data)
     end
     -- reset items
     for _, item_tuples in pairs(ITEM_MAPPING) do
-        for _, item_pair in pairs(item_tuples) do
-            for item_type, item_code in pairs(item_pair) do
-                local item_obj = Tracker:FindObjectForCode(item_code)
-                if item_obj then
-                    if item_obj.Type == "toggle" then
-                        item_obj.Active = false
-                    elseif item_obj.Type == "progressive" then
-                        item_obj.CurrentStage = 0
-                        item_obj.Active = false
-                    elseif item_obj.Type == "consumable" then
-                        if item_obj.MinCount then
-                            item_obj.AcquiredCount = item_obj.MinCount
-                        else
-                            item_obj.AcquiredCount = 0
-                        end
-                    elseif item_obj.Type == "progressive_toggle" then
-                        item_obj.CurrentStage = 0
-                        item_obj.Active = false
+        for item_type, item_code in pairs(item_tuples) do
+            local item_obj = Tracker:FindObjectForCode(item_code)
+            if item_obj then
+                if item_obj.Type == "toggle" then
+                    item_obj.Active = false
+                elseif item_obj.Type == "progressive" then
+                    item_obj.CurrentStage = 0
+                    item_obj.Active = false
+                elseif item_obj.Type == "consumable" then
+                    if item_obj.MinCount then
+                        item_obj.AcquiredCount = item_obj.MinCount
+                    else
+                        item_obj.AcquiredCount = 0
                     end
+                elseif item_obj.Type == "progressive_toggle" then
+                    item_obj.CurrentStage = 0
+                    item_obj.Active = false
                 end
             end
         end
@@ -179,7 +177,6 @@ function onLocation(location_id, location_name)
             print(string.format("onLocation: could not find location_object for code %s", location))
         end
     end
-    canFinish()
 end
 
 function onEvent(key, value, old_value)

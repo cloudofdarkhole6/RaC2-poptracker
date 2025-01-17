@@ -75,7 +75,7 @@
       {
         "name": "Facility Interior",
         "access_rules": ["electrolyzer,tractorbeam"],
-        "section": [
+        "sections": [
           {
             "name": "Sheepinator"
           }

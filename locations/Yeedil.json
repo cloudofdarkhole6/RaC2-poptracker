@@ -36,6 +36,22 @@
             "y": "260"
           }
         ]
+      },
+      {
+        "name": "Protopet",
+        "access_rules": ["$can_improved_jump,swingshot,hypnomatic,dynamo,infiltrator,electrolyzer"],
+        "sections": [
+          {
+            "name": "Victory"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yeedil",
+            "x": "340",
+            "y": "280"
+          }
+        ]
       }
     ]
   }
