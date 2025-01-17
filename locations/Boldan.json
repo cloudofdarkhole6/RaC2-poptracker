@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Spiderbot Alley",
-        "access_rules": ["levitator"],
+        "access_rules": ["levitator,spiderbot"],
         "sections": [
           {
             "name": "Platinum Bolt"

@@ -26,9 +26,6 @@
         "access_rules": ["$can_improved_jump,electrolyzer"],
         "sections": [
           {
-            "name": "Biker Helmet"
-          },
-          {
             "name": "Hoverbike Race Transmission"
           },
           {

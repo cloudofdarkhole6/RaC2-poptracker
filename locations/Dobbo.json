@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Spiderbot Room",
-        "access_rules": ["dynamo,swingshot"],
+        "access_rules": ["dynamo,swingshot,spiderbot"],
         "sections": [
           {
             "name": "Platinum Bolt"

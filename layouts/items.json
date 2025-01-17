@@ -21,10 +21,10 @@
               [
                 "heli-pack",
                 "thruster-pack",
-                "hydro-pack",
                 "grindboots",
                 "gravityboots",
-                "chargeboots"
+                "chargeboots",
+                "platinumbolt"
               ],
               [
                 "dynamo",
@@ -32,7 +32,7 @@
                 "tractorbeam",
                 "thermanator",
                 "hypnomatic",
-                "platinumbolt"
+                "hypnomaticpart"
               ],
               [
                 "electrolyzer",
@@ -40,16 +40,14 @@
                 "glider",
                 "levitator",
                 "qwarkstatuette",
-                "hypnomaticpart"
-
+                "nanotechboost"
               ],
               [
                 "boxbreaker",
                 "armormagnetizer",
                 "mapper",
-                "bikerhelmet",
-                "",
-                "nanotechboost"
+                "spiderbot",
+                "sheepinator"
               ]
             ]
           }

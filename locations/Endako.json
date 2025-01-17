@@ -67,10 +67,6 @@
       {
         "name": "Rescue Clank Thruster-Pack",
         "access_rules": ["electrolyzer"]
-      },
-      {
-        "name": "Rescue Clank Hydro-Pack",
-        "access_rules": ["electrolyzer"]
       }
     ],
     "map_locations": [

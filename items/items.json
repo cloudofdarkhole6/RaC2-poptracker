@@ -199,11 +199,11 @@
     "codes": "hypnomatic"
   },
   {
-    "name": "Biker Helmet",
+    "name": "Sheepinator",
     "type": "toggle",
-    "img": "images/items/bikerhelmet.png",
+    "img": "images/items/sheepinator.png",
     "img_mods": "",
-    "codes": "bikerhelmet"
+    "codes": "sheepinator"
   },
   {
     "name": "Swingshot",
@@ -302,11 +302,11 @@
     "codes": "gravityboots"
   },
   {
-    "name": "Hydro-Pack",
+    "name": "Spiderbot Glove",
     "type": "toggle",
-    "img": "images/items/hydro-pack.png",
+    "img": "images/items/spiderbot_glove.png",
     "img_mods": "",
-    "codes": "hydro-pack"
+    "codes": "spiderbot"
   },
   {
     "name": "Levitator",

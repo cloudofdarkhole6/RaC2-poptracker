@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Distribution Facility End",
-        "access_rules": ["$can_improved_jump,dynamo,electrolyzer,grindboots"],
+        "access_rules": ["$can_improved_jump,dynamo,infiltrator,grindboots"],
         "sections": [
           {
             "name": "Hypnomatic Part"

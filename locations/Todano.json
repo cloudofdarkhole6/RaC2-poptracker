@@ -42,7 +42,7 @@
       },
       {
         "name": "Spiderbot Conveyor",
-        "access_rules": ["electrolyzer,tractorbeam"],
+        "access_rules": ["electrolyzer,tractorbeam,spiderbot"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -69,6 +69,22 @@
             "map": "Todano",
             "x": "242",
             "y": "523"
+          }
+        ]
+      },
+      {
+        "name": "Facility Interior",
+        "access_rules": ["electrolyzer,tractorbeam"],
+        "section": [
+          {
+            "name": "Sheepinator"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "710",
+            "y": "410"
           }
         ]
       }
