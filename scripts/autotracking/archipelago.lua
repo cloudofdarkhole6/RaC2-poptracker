@@ -150,7 +150,7 @@ function onItem(index, item_id, item_name, player_number)
     		elseif object.Type == "consumable" then
     		    object.AcquiredCount = object.AcquiredCount + object.Increment
     		elseif object.Type == "progressive" then
-            object.CurrentStage = object.CurrentStage + 1
+                object.CurrentStage = object.CurrentStage + 1
     		end
         table.insert(OBTAINED_ITEMS, value[1])
   elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then

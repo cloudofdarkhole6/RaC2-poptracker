@@ -3,16 +3,10 @@
   "game_name": "Ratchet & Clank 2",
   "package_version": "0.0.1",
   "package_uid": "ratchet & clank 2_ap",
-  "author": "builder_script",
+  "author": "Cloudofdarkhole6",
   "variants": {
     "Map Tracker": {
       "display_name": "Map Tracker",
-      "flags": [
-        "ap"
-      ]
-    },
-    "Items Only": {
-      "display_name": "Items Only",
       "flags": [
         "ap"
       ]
