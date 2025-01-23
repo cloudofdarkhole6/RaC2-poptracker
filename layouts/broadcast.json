@@ -10,8 +10,78 @@
         "margin": "0,0",
         "content": [
           {
-            "type": "layout",
-            "key": "shared_item_grid_vertical"
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 36,
+            "item_width": 36,
+            "rows": [
+              [
+                "heli-pack",
+                "thruster-pack",
+                "grindboots",
+                "gravityboots",
+                "chargeboots"
+              ],
+              [
+                "dynamo",
+                "swingshot",
+                "tractorbeam",
+                "thermanator",
+                "hypnomatic"
+              ],
+              [
+                "electrolyzer",
+                "infiltrator",
+                "glider",
+                "levitator",
+                "qwarkstatuette"
+              ],
+              [
+                "boxbreaker",
+                "armormagnetizer",
+                "mapper",
+                "spiderbot",
+                "sheepinator"
+              ],
+              [
+                "nothing",
+                "platinumbolt",
+                "hypnomaticpart",
+                "nanotechboost",
+                "nothing"
+              ],
+              [
+                "oozlacoordinates",
+                "maktarnebulacoordinates",
+                "endakocoordinates",
+                "barlowcoordinates",
+                "feltzinsystemcoordinates"
+              ],
+              [
+                "notakcoordinates",
+                "siberiuscoordinates",
+                "taboracoordinates",
+                "dobbocoordinates",
+                "hrugiscloudcoordinates"
+              ],
+              [
+                "jobacoordinates",
+                "todanocoordinates",
+                "boldancoordinates",
+                "aranosprisoncoordinates",
+                "gorncoordinates"
+              ],
+              [
+                "snivelakcoordinates",
+                "smolgcoordinates",
+                "damoselcoordinates",
+                "grelbincoordinates",
+                "yeedilcoordinates"
+              ]
+            ]
           }
         ]
       }

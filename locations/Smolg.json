@@ -39,7 +39,7 @@
       },
       {
         "name": "Warehouse",
-        "access_rules": ["$can_improved_jump,dynmo"],
+        "access_rules": ["$can_improved_jump,dynamo"],
         "sections": [
           {
             "name": "Platinum Bolt"
