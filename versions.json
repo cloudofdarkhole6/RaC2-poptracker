@@ -1,0 +1,26 @@
+{
+	"versions": [
+		{
+			"package_version": "0.1.1",
+			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.1.1/RaC2-poptracker_0.1.1.zip",
+			"sha256": "2225bcd5f31ec30f8ee3e36c844d5151842f656a20fdb28f21080554c5955ee2",
+			"changelog": [
+				"fixed",
+				"Smolg logic",
+				"Updated icons",
+				"Broadcast view",
+
+				"whats next:",
+				"Update Bogon map with all locations"
+			]
+		},
+		{
+			"package_version": "0.1.0",
+			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.1.0/RaC2-poptracker_0.1.0.zip",
+			"sha256": "a2ca94f662351cfe636e536640c8059dd3c08469f804a1b7df1592421bc80a0e",
+			"changelog": [
+				"initial relrease"
+			]
+		}
+	]
+}
