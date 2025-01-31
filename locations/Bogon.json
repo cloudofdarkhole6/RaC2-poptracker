@@ -6,6 +6,72 @@
     "access_rules": [""],
     "children": [
       {
+        "name": "Oozla",
+        "sections": [
+          {
+            "name": "Outside Megacorp Store - Dynamo",
+            "ref": "Oozla/Outside Megacorp Store/Dynamo"
+          },
+          {
+            "name": "End of Store",
+            "ref": "Oozla/End of Store Cutscene"
+          },
+          {
+            "name": "Swamp Ruins",
+            "ref": "Oozla/Swamp Ruins/Platinum Bolt"
+          },
+          {
+            "name": "Swamp Monster",
+            "ref": "Oozla/Swamp Monster II/Box Breaker"
+          },
+          {
+            "name": "Megacorp Scientist - Tractor Beam",
+            "ref": "Oozla/Megacorp Scientist/Tractor Beam"
+          },
+          {
+            "name": "Tractor Puzzle",
+            "ref": "Oozla/Tractor Puzzle/Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "182",
+            "y": "85"
+          }
+        ]
+      },
+      {
+        "name": "Maktar Resort",
+        "sections": [
+          {
+            "name": "Crane - Platinum Bolt",
+            "ref": "Maktar/Crane/Platinum Bolt"
+          },
+          {
+            "name": "Arena Challenge",
+            "ref": "Maktar/Arena Challenge/Electrolyzer"
+          },
+          {
+            "name": "Photo Booth",
+            "ref": "Maktar/Photo Booth/Photo Booth"
+          },
+          {
+            "name": "Deactivate Jamming Array",
+            "ref": "Maktar/Jamming Array/Deactivate Jamming Array"
+          },
+          {
+            "name": "Jamming Array - Platinum Bolt",
+            "ref": "Maktar/Jamming Array/Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "295",
+            "y": "75"
+          }
+        ]
       }
     ]
   }
