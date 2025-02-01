@@ -17,12 +17,12 @@
             "ref": "Oozla/End of Store Cutscene"
           },
           {
-            "name": "Swamp Ruins",
-            "ref": "Oozla/Swamp Ruins/Platinum Bolt"
-          },
-          {
             "name": "Swamp Monster",
             "ref": "Oozla/Swamp Monster II/Box Breaker"
+          },
+          {
+            "name": "Swamp Ruins",
+            "ref": "Oozla/Swamp Ruins/Platinum Bolt"
           },
           {
             "name": "Megacorp Scientist - Tractor Beam",
@@ -70,6 +70,486 @@
             "map": "Bogon",
             "x": "295",
             "y": "75"
+          }
+        ]
+      },
+      {
+        "name": "Endako",
+        "sections": [
+          {
+            "name": "Ledge - Platinum Bolt",
+            "ref": "Endako/Ledge/Platinum Bolt"
+          },
+          {
+            "name": "Clanks Apartment - Swingshot",
+            "ref": "Endako/Clank's Apartment/Swingshot"
+          },
+          {
+            "name": "Clanks Apartment - Grindboots",
+            "ref": "Endako/Clank's Apartment/Grindboots"
+          },
+          {
+            "name": "Crane - Platinum Bolt",
+            "ref": "Endako/Crane/Platinum Bolt"
+          },
+          {
+            "name": "Crane - Nanotech Boost",
+            "ref": "Endako/Crane/Nanotech Boost"
+          },
+          {
+            "name": "Rescue CLank Heli-Pack",
+            "ref": "Endako/Rescue Clank Heli-Pack"
+          },
+          {
+            "name": "Rescue Clank Thruster-Pack",
+            "ref": "Endako/Rescue Clank Thruster-Pack"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "450",
+            "y": "60"
+          }
+        ]
+      },
+      {
+        "name": "Barlow",
+        "sections": [
+          {
+            "name": "Hoverbike Race Transmission",
+            "ref": "Barlow/Hoverbike Race/Hoverbike Race Transmission"
+          },
+          {
+            "name": "Hoverbike Race - Platinum Bolt",
+            "ref": "Barlow/Hoverbike Race/Platinum Bolt"
+          },
+          {
+            "name": "Hound Cave - Platinum Bolt",
+            "ref": "Barlow/Hound Cave/Platinum Bolt"
+          },
+          {
+            "name": "Thermanator",
+            "ref": "Barlow/Inventor/Thermanator"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "665",
+            "y": "70"
+          }
+        ]
+      },
+      {
+        "name": "Notak",
+        "sections": [
+          {
+            "name": "Promenade Sign - Platinum Bolt",
+            "ref": "Notak/Promenade Sign/Platinum Bolt"
+          },
+          {
+            "name": "Promenade End - Nanotech Boost",
+            "ref": "Notak/Promenade End/Nanotech Boost"
+          },
+          {
+            "name": "Behind Building - Platinum Bolt",
+            "ref": "Notak/Behind Building/Platinum Bolt"
+          },
+          {
+            "name": "Timed Dynamo - Platinum Bolt",
+            "ref": "Notak/Timed Dynamo/Platinum Bolt"
+          },
+          {
+            "name": "Telescreen",
+            "ref": "Notak/Top of Pier/Telescreen"
+          },
+          {
+            "name": "Worker Bots",
+            "ref": "Notak/Worker Bots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "886",
+            "y": "243"
+          }
+        ]
+      },
+      {
+        "name": "Siberius",
+        "sections": [
+          {
+            "name": "Flamebot Ledge - Platinum Bolt",
+            "ref": "Siberius/Flamebot Ledge/Platinum Bolt"
+          },
+          {
+            "name": "Fenced Area - Platinum Bolt",
+            "ref": "Siberius/Fenced Area/Platinum Bolt"
+          },
+          {
+            "name": "Defeat Thief",
+            "ref": "Siberius/Defeat Thief"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "735",
+            "y": "260"
+          }
+        ]
+      },
+      {
+        "name": "Tabora",
+        "sections": [
+          {
+            "name": "Meet Angela",
+            "ref": "Tabora/Meet Angela"
+          },
+          {
+            "name": "Underground Mines - Platinum Bolt",
+            "ref": "Tabora/Underground Mines/Platinum Bolt"
+          },
+          {
+            "name": "Glider",
+            "ref": "Tabora/Underground Mine/Glider"
+          },
+          {
+            "name": "Canyon Glide - Nanotech Boost",
+            "ref": "Tabora/Canyon Glide Pillar/Nanotech Boost"
+          },
+          {
+            "name": "Canyon Glide - Platinum Bolt",
+            "ref": "Tabora/Canyon Glide/Platinum Bolt"
+          },
+          {
+            "name": "Northeast Desert - Platinum Bolt",
+            "ref": "Tabora/Northeast Desert/Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "674",
+            "y": "343"
+          }
+        ]
+      },
+      {
+        "name": "Dobbo",
+        "sections": [
+          {
+            "name": "Spiderbot Room - Platinum Bolt",
+            "ref": "Dobbo/Spiderbot Room/Platinum Bolt"
+          },
+          {
+            "name": "Defeat Thug Leader",
+            "ref": "Dobbo/Defeat Thug Leader"
+          },
+          {
+            "name": "Facility Terminal",
+            "ref": "Dobbo/Facility Terminal/Facility Terminal"
+          },
+          {
+            "name": "Facility Glide - Platinum Bolt",
+            "ref": "Dobbo/Facility Glide End/Platinum Bolt"
+          },
+          {
+            "name": "Facility Glide - Nanotech Boost",
+            "ref": "Dobbo/Facility Glide Beginning/Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "580",
+            "y": "400"
+          }
+        ]
+      },
+      {
+        "name": "Joba",
+        "sections": [
+          {
+            "name": "Charge Boots",
+            "ref": "Joba/Hoverbike Race/Charge Boots"
+          },
+          {
+            "name": "Hoverbike Race - Nanotech Boost",
+            "ref": "Joba/Hoverbike Race/Nanotech Boost"
+          },
+          {
+            "name": "Timed Dynamo Course - Nanotech Boost",
+            "ref": "Joba/Timed Dynamo Course/Nanotech Boost"
+          },
+          {
+            "name": "Hidden Cliff - Platinum Bolt",
+            "ref": "Joba/Hidden Cliff/Platinum Bolt"
+          },
+          {
+            "name": "Levitator",
+            "ref": "Joba/Shady Salesman/Levitator"
+          },
+          {
+            "name": "Levitator Tower - Platinum Bolt",
+            "ref": "Joba/Levitator Tower/Platinum Bolt"
+          },
+          {
+            "name": "Gravity Boots",
+            "ref": "Joba/Arena Battle/Gravity Boots"
+          },
+          {
+            "name": "Infiltrator",
+            "ref": "Joba/Arena Battle/Infiltrator"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "120",
+            "y": "300"
+          }
+        ]
+      },
+      {
+        "name": "Todano",
+        "sections": [
+          {
+            "name": "End of Tour - Platinum Bolt",
+            "ref": "Todano/End of Tour/Platinum Bolt"
+          },
+          {
+            "name": "Rocket Silo - Nanotech Boost",
+            "ref": "Todano/Rocket Silo/Nanotech Boost"
+          },
+          {
+            "name": "Search Rocket Silo",
+            "ref": "Todano/Search Rocket Silo"
+          },
+          {
+            "name": "Armor Magnetizer",
+            "ref": "Todano/Stuart Zurgo/Armor Magnetizer"
+          },
+          {
+            "name": "Near Stuart Zurgo - Platinum Bolt",
+            "ref": "Todano/Stuart Zurgo/Platinum Bolt"
+          },
+          {
+            "name": "Spiderbot Conveyor - Platinum Bolt",
+            "ref": "Todano/Spiderbot Conveyor/Platinum Bolt"
+          },
+          {
+            "name": "Sheepinator",
+            "ref": "Todano/Facility Interior/Sheepinator"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "80",
+            "y": "225"
+          }
+        ]
+      },
+      {
+        "name": "Boldan",
+        "sections": [
+          {
+            "name": "Fountain - Nanotech Boost",
+            "ref": "Boldan/Fountain/Nanotech Boost"
+          },
+          {
+            "name": "Spiderbot Alley - Platinum Bolt",
+            "ref": "Boldan/Spiderbot Alley/Platinum Bolt"
+          },
+          {
+            "name": "Floating Platform - Platinum Bolt",
+            "ref": "Boldan/Floating Platform/Platinum Bolt"
+          },
+          {
+            "name": "Find Fizzwidget",
+            "ref": "Boldan/Upper Dome/Find Fizzwidget"
+          },
+          {
+            "name": "Upper Dome - Platinum Bolt",
+            "ref": "Boldan/Upper Dome/Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "212",
+            "y": "133"
+          }
+        ]
+      },
+      {
+        "name": "Aranos",
+        "sections": [
+          {
+            "name": "Control Room",
+            "ref": "Aranos/Control Room"
+          },
+          {
+            "name": "Qwark Statuette",
+            "ref": "Aranos/Plumber/Qwark Statuette"
+          },
+          {
+            "name": "Under Ship - Platinum Bolt",
+            "ref": "Aranos/Under Ship/Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "476",
+            "y": "114"
+          }
+        ]
+      },
+      {
+        "name": "Snivelak",
+        "sections": [
+          {
+            "name": "Swingshot Tower - Nanotech Boost",
+            "ref": "Snivelak/Swingshot Tower/Nanotech Boost"
+          },
+          {
+            "name": "Dynamo Platforms - Platinum Bolt",
+            "ref": "Snivelak/Dynamo Platforms/Platinum Bolt"
+          },
+          {
+            "name": "Rescue Angela",
+            "ref": "Snivelak/Rescue Angela"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "617",
+            "y": "158"
+          }
+        ]
+      },
+      {
+        "name": "Smolg",
+        "sections": [
+          {
+            "name": "Warehouse - Platinum Bolt",
+            "ref": "Smolg/Warehouse/Platinum Bolt"
+          },
+          {
+            "name": "Balloon Transmission",
+            "ref": "Smolg/Balloon Transmission/Balloon Transmission"
+          },
+          {
+            "name": "Hypnomatic Part",
+            "ref": "Smolg/Distribution Facility End/Hypnomatic Part"
+          },
+          {
+            "name": "Floating Platform - Platinum Bolt",
+            "ref": "Smolg/Floating Platform/Platinum Bolt"
+          },
+          {
+            "name": "Mutant Crab",
+            "ref": "Smolg/Mutant Crab"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "543",
+            "y": "300"
+          }
+        ]
+      },
+      {
+        "name": "Damosel",
+        "sections": [
+          {
+            "name": "Defeat Mothership",
+            "ref": "Damosel/Defeat Mothership/Mapper"
+          },
+          {
+            "name": "Hypnomatic Part",
+            "ref": "Damosel/Train Rails/Hypnomatic Part"
+          },
+          {
+            "name": "Frozen Fountain - Platinum Bolt",
+            "ref": "Damosel/Frozen Fountain/Platinum Bolt"
+          },
+          {
+            "name": "Pyramid - Platinum Bolt",
+            "ref": "Damosel/Pyramid/Platinum Bolt"
+          },
+          {
+            "name": "Hypnotist",
+            "ref": "Damosel/Hypnotist"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "382",
+            "y": "251"
+          }
+        ]
+      },
+      {
+        "name": "Grelbin",
+        "sections": [
+          {
+            "name": "Find Angela",
+            "ref": "Grelbin/Find Angela"
+          },
+          {
+            "name": "Hypnomatic Part",
+            "ref": "Grelbin/Mystic More Moonstones/Hypnomatic Part"
+          },
+          {
+            "name": "Ice Plains - Platinum Bolt",
+            "ref": "Grelbin/Ice Plains/Platinum Bolt"
+          },
+          {
+            "name": "Underwater Tunnel - Platinum Bolt",
+            "ref": "Grelbin/Underwater Tunnel/Platinum Bolt"
+          },
+          {
+            "name": "Yeti Cave - Platinum Bolt",
+            "ref": "Grelbin/Yeti Cave/Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "242",
+            "y": "305"
+          }
+        ]
+      },
+      {
+        "name": "Yeedil",
+        "sections": [
+          {
+            "name": "Bridge Grindrail - Platinum Bolt",
+            "ref": "Yeedil/Bridge Grindrail/Platinum Bolt"
+          },
+          {
+            "name": "Tractor Pillar - Platinum Bolt",
+            "ref": "Yeedil/Tractor Pillar/Platinum Bolt"
+          },
+          {
+            "name": "Protopet - Victory",
+            "ref": "Yeedil/Protopet/Victory"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "214",
+            "y": "226"
           }
         ]
       }

@@ -1,6 +1,16 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.2",
+			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.1.2/RaC2-poptracker_0.1.2.zip",
+			"sha256": "c3c02f298e147b5e29146ed5a1c5d988173063dc0cd1ffccf3967f648d241fab",
+			"changelog": [
+				"added",
+				"- Bogon serves as a world map showing all locations",
+				"- Auto update for new versions"
+			]
+		},
+		{
 			"package_version": "0.1.1",
 			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.1.1/RaC2-poptracker_0.1.1.zip",
 			"sha256": "2225bcd5f31ec30f8ee3e36c844d5151842f656a20fdb28f21080554c5955ee2",
