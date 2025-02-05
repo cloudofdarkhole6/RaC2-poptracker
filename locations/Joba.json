@@ -28,7 +28,7 @@
       },
       {
         "name": "Shady Salesman",
-        "access_rules": ["dynamo"],
+        "access_rules": ["$can_improved_jump,dynamo"],
         "sections": [
           {
             "name": "Levitator",

@@ -55,7 +55,7 @@
       },
       {
         "name": "Facility Terminal",
-        "access_rules": ["$can_improved_jump,swingshot,glider,electrolyzer"],
+        "access_rules": ["dynamo,swingshot,glider,electrolyzer"],
         "sections": [
           {
             "name": "Facility Terminal"

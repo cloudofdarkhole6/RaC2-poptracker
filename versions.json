@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.3",
+			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.1.3/RaC2-poptracker_0.1.3.zip",
+			"sha256": "181f6aafa00379be830e92bf4d6e0086031d2e60744ceca258c5d6ec7f6c0cf5",
+			"changelog": [
+				"added",
+				"- updated logic for AP v0.4.2"
+			]
+		},
+		{
 			"package_version": "0.1.2",
 			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.1.2/RaC2-poptracker_0.1.2.zip",
 			"sha256": "c3c02f298e147b5e29146ed5a1c5d988173063dc0cd1ffccf3967f648d241fab",

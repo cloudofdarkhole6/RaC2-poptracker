@@ -42,7 +42,7 @@
       },
       {
         "name": "Spiderbot Conveyor",
-        "access_rules": ["electrolyzer,tractorbeam,spiderbot"],
+        "access_rules": ["$can_improved_jump,electrolyzer,tractorbeam,spiderbot"],
         "sections": [
           {
             "name": "Platinum Bolt"

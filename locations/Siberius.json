@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Flamebot Ledge",
-        "access_rules": ["$can_improved_jump","tractorbeam"],
+        "access_rules": ["tractorbeam"],
         "sections": [
           {
             "name": "Platinum Bolt"
