@@ -33,7 +33,7 @@ ITEM_MAPPING = {
     [114] = {"lavagun", "toggle"},
     [115] = {"lancer", "toggle"},
     [116] = {"synthenoid", "toggle"},
-    [117] = {"spiderbotglove", "toggle"},
+    [117] = {"spiderbot", "toggle"},
     [118] = {"bouncer", "toggle"},
     [119] = {"miniturretglove", "toggle"},
     [120] = {"gravitybomb", "toggle"},
@@ -64,4 +64,6 @@ ITEM_MAPPING = {
 	[301] = {"platinumbolt", "consumable"},
 	[302] = {"nanotechboost", "consumable"},
 	[303] = {"hypnomaticpart", "progressive"},
+	[401] = {"progressivewrench", "progressive"},
+	[402] = {"progressivearmor", "progressive"}
 }

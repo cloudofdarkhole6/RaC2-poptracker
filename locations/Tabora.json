@@ -83,6 +83,21 @@
             "y": "753"
           }
         ]
+      },
+      {
+        "name": "OmniWrench 10000",
+        "sections": [
+          {
+            "name": "Wrench pickup"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tabora",
+            "x": "689",
+            "y": "953"
+          }
+        ]
       }
     ],
     "sections": [

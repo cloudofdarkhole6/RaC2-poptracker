@@ -35,6 +35,21 @@
             "y": "550"
           }
         ]
+      },
+      {
+        "name": "OmniWrench 12000",
+        "sections": [
+          {
+            "name": "Wrench pickup"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aranos",
+            "x": "648",
+            "y": "812"
+          }
+        ]
       }
     ],
     "sections": [

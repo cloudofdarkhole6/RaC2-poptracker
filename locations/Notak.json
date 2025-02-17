@@ -86,7 +86,7 @@
     "sections": [
       {
         "name": "Worker Bots",
-        "access_rules": ["$can_improved_jump,thermanator"]
+        "access_rules": ["heli-pack,thermanator"]
       }
     ],
     "map_locations": [

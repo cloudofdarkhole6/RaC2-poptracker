@@ -205,6 +205,10 @@
         "name": "Tabora",
         "sections": [
           {
+            "name": "OmniWrench 10000",
+            "ref": "Tabora/OmniWrench 10000/Wrench pickup"
+          },
+          {
             "name": "Meet Angela",
             "ref": "Tabora/Meet Angela"
           },
@@ -388,6 +392,10 @@
       {
         "name": "Aranos",
         "sections": [
+          {
+            "name": "OmniWrench 12000",
+            "ref": "Aranos/OmniWrench 12000/Wrench pickup"
+          },
           {
             "name": "Control Room",
             "ref": "Aranos/Control Room"
