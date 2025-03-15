@@ -13,6 +13,18 @@
           },
           {
             "name": "Race Platinum Bolt"
+          },
+          {
+            "name": "Take out the Saboteurs",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Destroy the Berserk Repair Drones",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Race Through the Disposal Facility",
+            "visibility_rules": ["spaceship_on"]
           }
         ],
         "map_locations": [

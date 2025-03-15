@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Extra spaceship mission",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/spaceship_off.png",
+        "codes": "extra_spaceship_setting,spaceship_off",
+        "inherit_codes": false,
+        "name": "No additional spaceship rewards"
+      },
+      {
+        "img": "images/settings/spaceship_on.png",
+        "codes": "extra_spaceship_setting,spaceship_on",
+        "inherit_codes": false,
+        "name": "Additional spaceship rewards"
+      }
+    ]
+  },
+  {
+    "name": "Megacorp vendor",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/megacorp_off.png",
+        "codes": "megacorp_vendor_setting,megacorp_off",
+        "inherit_codes": false,
+        "name": "Megacorp vendor off"
+      },
+      {
+        "img": "images/settings/megacorp_on.png",
+        "codes": "megacorp_vendor_setting,megacorp_on",
+        "inherit_codes": false,
+        "name": "Megacorp vendor on"
+      }
+    ]
+  },
+  {
+    "name": "Gadgetron vendor",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/gadgetron_off.png",
+        "codes": "gadgetron_vendor_setting,gadgetron_off",
+        "inherit_codes": false,
+        "name": "Gadgetron vendor off"
+      },
+      {
+        "img": "images/settings/gadgetron_on.png",
+        "codes": "gadgetron_vendor_setting,gadgetron_on",
+        "inherit_codes": false,
+        "name": "Gadgetron vendor on"
+      }
+    ]
+  }
+]

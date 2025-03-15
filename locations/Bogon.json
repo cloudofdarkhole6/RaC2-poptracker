@@ -131,6 +131,30 @@
           {
             "name": "Thermanator",
             "ref": "Barlow/Inventor/Thermanator"
+          },
+          {
+            "name": "Barlow Weapon 1",
+            "ref": "Barlow/Gadgetron Vendor/Gadgetron Weapon 1"
+          },
+          {
+            "name": "Barlow Weapon 2",
+            "ref": "Barlow/Gadgetron Vendor/Gadgetron Weapon 2"
+          },
+          {
+            "name": "Barlow Weapon 3",
+            "ref": "Barlow/Gadgetron Vendor/Gadgetron Weapon 3"
+          },
+          {
+            "name": "Barlow Weapon 4",
+            "ref": "Barlow/Gadgetron Vendor/Gadgetron Weapon 4"
+          },
+          {
+            "name": "Barlow Weapon 5",
+            "ref": "Barlow/Gadgetron Vendor/Gadgetron Weapon 5"
+          },
+          {
+            "name": "Barlow Weapon 6",
+            "ref": "Barlow/Gadgetron Vendor/Gadgetron Weapon 6"
           }
         ],
         "map_locations": [
@@ -558,6 +582,75 @@
             "map": "Bogon",
             "x": "214",
             "y": "226"
+          }
+        ]
+      },
+      {
+        "name": "Megacorp Vendor",
+        "visibility_rules": ["megacorp_on"],
+        "sections": [
+          {
+            "name": "Oozla Weapon 1",
+            "access_rules": ["oozlacoordinates"]
+          },
+          {
+            "name": "Oozla Weapon 2",
+            "access_rules": ["oozlacoordinates"]
+          },
+          {
+            "name": "Endako Weapon 1",
+            "access_rules": ["endakocoordinates"]
+          },
+          {
+            "name": "Endako Weapon 2",
+            "access_rules": ["endakocoordinates"]
+          },
+          {
+            "name": "Barlow Weapon",
+            "access_rules": ["barlowcoordinates"]
+          },
+          {
+            "name": "Notak Weapon",
+            "access_rules": ["notakcoordinates"]
+          },
+          {
+            "name": "Tabora Weapon 1",
+            "access_rules": ["taboracoordinates,swingshot,heli-pack"]
+          },
+          {
+            "name": "Tabora Weapon 2",
+            "access_rules": ["taboracoordinates,swingshot,heli-pack"]
+          },
+          {
+            "name": "Dobbo Weapon",
+            "access_rules": ["dobbocoordinates"]
+          },
+          {
+            "name": "Joba Weapon 1",
+            "access_rules": ["jobacoordinates"]
+          },
+          {
+            "name": "Joba Weapon 2",
+            "access_rules": ["jobacoordinates"]
+          },
+          {
+            "name": "Todano Weapon",
+            "access_rules": ["todanocoordinates"]
+          },
+          {
+            "name": "Aranos Weapon 1",
+            "access_rules": ["aranosprisoncoordinates,gravityboots,levitator,infiltrator"]
+          },
+          {
+            "name": "Aranos Weapon 2",
+            "access_rules": ["aranosprisoncoordinates,gravityboots,levitator,infiltrator"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "500",
+            "y": "250"
           }
         ]
       }

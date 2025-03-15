@@ -13,6 +13,18 @@
           },
           {
             "name": "Platinum Bolt"
+          },
+          {
+            "name": "Fight the Bandits",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Defeat the Ghost Ship",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Race Through the Docking Bays",
+            "visibility_rules": ["spaceship_on"]
           }
         ],
         "map_locations": [

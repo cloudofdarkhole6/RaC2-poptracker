@@ -16,6 +16,18 @@
           },
           {
             "name": "Defeat Thug Ships"
+          },
+          {
+            "name": "Destroy Space Wasps",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Fight Ace Thug Ships",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Race Through the Asteroids",
+            "visibility_rules": ["spaceship_on"]
           }
         ],
         "map_locations": [

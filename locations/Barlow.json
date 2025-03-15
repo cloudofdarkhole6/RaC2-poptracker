@@ -55,6 +55,37 @@
             "y": "467"
           }
         ]
+      },
+      {
+        "name": "Gadgetron Vendor",
+        "visibility_rules": ["gadgetron_on"],
+        "sections": [
+          {
+            "name": "Gadgetron Weapon 1"
+          },
+          {
+            "name": "Gadgetron Weapon 2"
+          },
+          {
+            "name": "Gadgetron Weapon 3"
+          },
+          {
+            "name": "Gadgetron Weapon 4"
+          },
+          {
+            "name": "Gadgetron Weapon 5"
+          },
+          {
+            "name": "Gadgetron Weapon 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Barlow",
+            "x": "744",
+            "y": "767"
+          }
+        ]
       }
     ]
   }
