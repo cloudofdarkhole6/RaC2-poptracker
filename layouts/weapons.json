@@ -1,0 +1,63 @@
+{
+  "weapon_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 36,
+            "item_width": 36,
+            "rows": [
+              [
+                "lancer",
+                "gravitybomb",
+                "chopper",
+                "seekergun"
+              ],
+              [
+                "pulserifle",
+                "miniturretglove",
+                "blitzgun",
+                "shieldcharger"
+              ],
+              [
+                "synthenoid",
+                "lavagun",
+                "bouncer",
+                "minirockettube"
+              ],
+              [
+                "plasmacoil",
+                "hoverbombgun",
+                "spiderbot",
+                "sheepinator"
+              ],
+              [
+                "teslaclaw",
+                "bombglove",
+                "walloper",
+                "visibombgun"
+              ],
+              [
+                "decoyglove",
+                "zodiac",
+                "rynoii",
+                "clankzapper"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

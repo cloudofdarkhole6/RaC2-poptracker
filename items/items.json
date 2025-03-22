@@ -335,5 +335,159 @@
     "img": "images/items/levitator.png",
     "img_mods": "",
     "codes": "levitator"
+  },
+  {
+    "name": "Clank Zapper",
+    "type": "toggle",
+    "img": "images/items/clankzapper.png",
+    "img_mods": "",
+    "codes": "clankzapper"
+  },
+  {
+    "name": "Bomb Glove",
+    "type": "toggle",
+    "img": "images/items/bombglove.png",
+    "img_mods": "",
+    "codes": "bombglove"
+  },
+  {
+    "name": "Visibomb Gun",
+    "type": "toggle",
+    "img": "images/items/visibombgun.png",
+    "img_mods": "",
+    "codes": "visibombgun"
+  },
+  {
+    "name": "Decoy Glove",
+    "type": "toggle",
+    "img": "images/items/decoyglove.png",
+    "img_mods": "",
+    "codes": "decoyglove"
+  },
+  {
+    "name": "Tesla Claw",
+    "type": "toggle",
+    "img": "images/items/teslaclaw.png",
+    "img_mods": "",
+    "codes": "teslaclaw"
+  },
+  {
+    "name": "Chopper",
+    "type": "toggle",
+    "img": "images/items/chopper.png",
+    "img_mods": "",
+    "codes": "chopper"
+  },
+  {
+    "name": "Pulse Rifle",
+    "type": "toggle",
+    "img": "images/items/pulserifle.png",
+    "img_mods": "",
+    "codes": "pulserifle"
+  },
+  {
+    "name": "Seeker Gun",
+    "type": "toggle",
+    "img": "images/items/seekergun.png",
+    "img_mods": "",
+    "codes": "seekergun"
+  },
+  {
+    "name": "Hoverbomb Gun",
+    "type": "toggle",
+    "img": "images/items/hoverbombgun.png",
+    "img_mods": "",
+    "codes": "hoverbombgun"
+  },
+  {
+    "name": "Blitz Gun",
+    "type": "toggle",
+    "img": "images/items/blitzgun.png",
+    "img_mods": "",
+    "codes": "blitzgun"
+  },
+  {
+    "name": "Minirocket Tube",
+    "type": "toggle",
+    "img": "images/items/minirockettube.png",
+    "img_mods": "",
+    "codes": "minirockettube"
+  },
+  {
+    "name": "Plasma Coil",
+    "type": "toggle",
+    "img": "images/items/plasmacoil.png",
+    "img_mods": "",
+    "codes": "plasmacoil"
+  },
+  {
+    "name": "Lava Gun",
+    "type": "toggle",
+    "img": "images/items/lavagun.png",
+    "img_mods": "",
+    "codes": "lavagun"
+  },
+  {
+    "name": "Lancer",
+    "type": "toggle",
+    "img": "images/items/lancer.png",
+    "img_mods": "",
+    "codes": "lancer"
+  },
+  {
+    "name": "Synthenoid",
+    "type": "toggle",
+    "img": "images/items/synthenoid.png",
+    "img_mods": "",
+    "codes": "synthenoid"
+  },
+  {
+    "name": "Bouncer",
+    "type": "toggle",
+    "img": "images/items/bouncer.png",
+    "img_mods": "",
+    "codes": "bouncer"
+  },
+  {
+    "name": "Miniturret Glove",
+    "type": "toggle",
+    "img": "images/items/miniturretglove.png",
+    "img_mods": "",
+    "codes": "miniturretglove"
+  },
+  {
+    "name": "Gravity Bomb",
+    "type": "toggle",
+    "img": "images/items/gravitybomb.png",
+    "img_mods": "",
+    "codes": "gravitybomb"
+  },
+  {
+    "name": "Zodiac",
+    "type": "toggle",
+    "img": "images/items/zodiac.png",
+    "img_mods": "",
+    "codes": "zodiac"
+  },
+  {
+    "name": "RYNO II",
+    "type": "toggle",
+    "img": "images/items/rynoii.png",
+    "img_mods": "",
+    "codes": "rynoii"
+  },
+  {
+    "name": "Shield Charger",
+    "type": "toggle",
+    "img": "images/items/shieldcharger.png",
+    "img_mods": "",
+    "codes": "shieldcharger"
+  },
+  {
+    "name": "Walloper",
+    "type": "toggle",
+    "img": "images/items/walloper.png",
+    "img_mods": "",
+    "codes": "walloper"
   }
 ]

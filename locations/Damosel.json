@@ -54,7 +54,7 @@
       },
       {
         "name": "Pyramid",
-        "access_rules": ["$can_improved_jump,swingshot,thermanator,hypnomatic"],
+        "access_rules": ["$can_improved_jump,swingshot,hypnomatic"],
         "sections": [
           {
             "name": "Platinum Bolt"
