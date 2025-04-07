@@ -21,7 +21,8 @@
               [
                 "extra_spaceship_setting",
                 "megacorp_vendor_setting",
-                "gadgetron_vendor_setting"
+                "gadgetron_vendor_setting",
+                "first_person_setting"
               ]
             ]
           }
