@@ -87,7 +87,7 @@
     "sections": [
       {
         "name": "End of Store Cutscene",
-        "access_rules": ["dynamo"]
+        "access_rules": ["$oozla_store_end"]
       }
     ],
     "map_locations": [
