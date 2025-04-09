@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Flamebot Ledge",
-        "access_rules": ["tractorbeam"],
+        "access_rules": ["$siberius_flamebot_ledge_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -23,7 +23,7 @@
       },
       {
         "name": "Fenced Area",
-        "access_rules": ["heli-pack"],
+        "access_rules": ["$siberius_fenced_area_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"

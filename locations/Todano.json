@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Stuart Zurgo",
-        "access_rules": ["electrolyzer,tractorbeam"],
+        "access_rules": ["$todano_stuart_zurgo_area"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -42,7 +42,7 @@
       },
       {
         "name": "Spiderbot Conveyor",
-        "access_rules": ["$can_improved_jump,electrolyzer,tractorbeam,spiderbot"],
+        "access_rules": ["$todano_spiderbot_conveyor_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -58,7 +58,7 @@
       },
       {
         "name": "Rocket Silo",
-        "access_rules": ["electrolyzer,infiltrator"],
+        "access_rules": ["$todano_rocket_silo_nt"],
         "sections": [
           {
             "name": "Nanotech Boost"
@@ -74,7 +74,7 @@
       },
       {
         "name": "Facility Interior",
-        "access_rules": ["electrolyzer,tractorbeam"],
+        "access_rules": ["$todano_facility_interior"],
         "sections": [
           {
             "name": "Sheepinator"
@@ -92,7 +92,7 @@
     "sections": [
       {
         "name": "Search Rocket Silo",
-        "access_rules": ["$can_improved_jump,electrolyzer,infiltrator"]
+        "access_rules": ["$todano_search_rocket_silo"]
       }
     ],
     "map_locations": [

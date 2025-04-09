@@ -28,7 +28,7 @@
       },
       {
         "name": "Shady Salesman",
-        "access_rules": ["$can_improved_jump,dynamo"],
+        "access_rules": ["$joba_shady_salesman"],
         "sections": [
           {
             "name": "Levitator",
@@ -46,7 +46,7 @@
       },
       {
         "name": "Arena Battle",
-        "access_rules": ["$can_improved_jump,dynamo,levitator"],
+        "access_rules": ["$joba_arena_battle"],
         "sections": [
           {
             "name": "Gravity Boots"
@@ -65,7 +65,7 @@
       },
       {
         "name": "Hidden Cliff",
-        "access_rules": ["dynamo,swingshot"],
+        "access_rules": ["$joba_hidden_cliff_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -81,7 +81,7 @@
       },
       {
         "name": "Levitator Tower",
-        "access_rules": ["$can_improved_jump,dynamo,levitator"],
+        "access_rules": ["$joba_levitator_tower_pb"],
         "sections": [
           {
             "name": "Platinum Bolt",
@@ -99,7 +99,7 @@
       },
       {
         "name": "Timed Dynamo Course",
-        "access_rules": ["dynamo"],
+        "access_rules": ["$joba_timed_dynamo_nt"],
         "sections": [
           {
             "name": "Nanotech Boost"

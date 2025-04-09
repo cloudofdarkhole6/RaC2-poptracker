@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Spiderbot Room",
-        "access_rules": ["dynamo,swingshot,spiderbot"],
+        "access_rules": ["$dobbo_spiderbot_room_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -23,7 +23,7 @@
       },
       {
         "name": "Facility Glide End",
-        "access_rules": ["dynamo,swingshot,glider"],
+        "access_rules": ["$dobbo_facility_glide_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -39,7 +39,7 @@
       },
       {
         "name": "Facility Glide Beginning",
-        "access_rules": ["dynamo,swingshot,glider"],
+        "access_rules": ["$dobbo_facility_glide_nt"],
         "sections": [
           {
             "name": "Nanotech Boost"
@@ -55,7 +55,7 @@
       },
       {
         "name": "Facility Terminal",
-        "access_rules": ["dynamo,swingshot,glider,electrolyzer"],
+        "access_rules": ["$dobbo_facility_terminal"],
         "sections": [
           {
             "name": "Facility Terminal"
@@ -73,7 +73,7 @@
     "sections": [
       {
         "name": "Defeat Thug Leader",
-        "access_rules": ["$can_improved_jump,dynamo,swingshot"]
+        "access_rules": ["$dobbo_defeat_thug_leader"]
       }
     ],
     "map_locations": [

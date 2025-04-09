@@ -37,7 +37,7 @@
       },
       {
         "name": "Tractor Puzzle",
-        "access_rules": ["tractorbeam"],
+        "access_rules": ["$oozla_tractor_puzzle_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -53,7 +53,7 @@
       },
       {
         "name": "Swamp Ruins",
-        "access_rules": ["dynamo"],
+        "access_rules": ["$oozla_swamp_ruins_pp"],
         "sections": [
           {
             "name": "Platinum Bolt"
