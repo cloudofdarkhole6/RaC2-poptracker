@@ -3,7 +3,7 @@
     "name": "Tabora",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": ["taboracoordinates"],
+    "access_rules": ["taboracoordinates,swingshot,heli-pack"],
     "children": [
       {
         "name": "Underground Mines",
@@ -55,7 +55,6 @@
       },
       {
         "name": "Northeast Desert",
-        "access_rules": ["swingshot,heli-pack"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -87,7 +86,6 @@
       },
       {
         "name": "OmniWrench 10000",
-        "access_rules": ["swingshot,heli-pack"],
         "sections": [
           {
             "name": "Wrench pickup"

@@ -71,7 +71,7 @@ function notak_worker_bots()
     return true
   end
   return has("heli-pack") and has("thermanator")
-
+end
 
 function notak_timed_dynamo()
   local fpg = get_first_person_setting()
@@ -269,7 +269,7 @@ function boldan_find_fizzwidget()
   if fpg >= 1 then
     return has("swingshot") and has("gravityboots")
   end
-  return return has("swingshot") and has("gravityboots") and has("levitator")
+  return has("swingshot") and has("gravityboots") and has("levitator")
 end
 
 

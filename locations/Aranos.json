@@ -3,7 +3,7 @@
     "name": "Aranos",
     "chest_unopened_img": "/images/items/close.png",
     "chest_opened_img": "/images/items/open.png",
-    "access_rules": ["aranosprisoncoordinates"],
+    "access_rules": ["aranosprisoncoordinates,gravityboots,levitator,infiltrator"],
     "children": [
       {
         "name": "Plumber",
