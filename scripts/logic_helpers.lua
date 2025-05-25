@@ -321,233 +321,133 @@ function aranos_plumber()
   return has("gravityboots") and has("levitator")
 end
 
-def aranos_under_ship_pb_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_MEDIUM:
-        return can_heli(state, player)
-
-    return (can_gravity(state, player)
-            and can_heli(state, player))
-
-
-def aranos_omniwrench_12000_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_MEDIUM:
-        return True
-
-    return can_gravity(state, player)
-
-
-def snivelak_rescue_angelak_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >+ FIRST_PERSON_EASY:
-        return can_swingshot(state, player)
-
-    return (can_swingshot(state, player)
-            and can_grind(state, player)
-            and can_gravity(state, player)
-            and can_dynamo(state, player))
-
-
-def snivelak_dynamo_pb_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return can_swingshot(state, player)
-
-    return (can_swingshot(state, player)
-            and can_grind(state, player)
-            and can_gravity(state, player)
-            and can_dynamo(state, player)
-            and can_heli(state, player))
-
-
-def snivelak_swingshot_tower_nt_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return can_swingshot(state, player)
-
-    return (can_swingshot(state, player)
-            and can_heli(state, player))
-
-
-def smolg_balloon_transmission_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return can_electrolyze(state, player)
-
-    return (can_improved_jump(state, player)
-            and can_dynamo(state, player)
-            and can_electrolyze(state, player))
-
-
-def smolg_distribution_facility_end_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return can_electrolyze(state, player)
-
-    return (can_improved_jump(state, player)
-            and can_dynamo(state, player)
-            and can_electrolyze(state, player)
-            and can_grind(state, player)
-            and can_infiltrate(state, player))
-
-
-def smolg_mutant_crab_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        if not can_levitate(state, player):
-            return False
-        return (can_swingshot(state, player)
-                or can_electrolyze(state, player))
-
-    return (can_swingshot(state, player)
-            and can_levitate(state, player))
-
-
-def smolg_floating_platform_pb_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        if not can_levitate(state, player):
-            return False
-        return (can_swingshot(state, player)
-                or can_electrolyze(state, player))
-
-    return (can_swingshot(state, player)
-            and can_levitate(state, player))
-
-
-def smolg_warehouse_pb_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return True
-
-    return (can_dynamo(state, player)
-            or can_improved_jump(state, player))
-
-
-def damosel_hypnotist_rule(state: CollectionState, player: int) -> bool:
-    return (can_swingshot(state, player)
-            and can_improved_jump(state, player)
-            and can_thermanate(state, player)
-            and has_hypnomatic_parts(state, player))
-
-
-def damosel_train_rails_rule(state: CollectionState, player: int) -> bool:
-    return can_grind(state, player)
-
-
-def damosel_frozen_mountain_pb_rule(state: CollectionState, player: int) -> bool:
-    return (can_swingshot(state, player)
-            and can_improved_jump(state, player)
-            and can_thermanate(state, player)
-            and can_grind(state, player))
-
-
-def damosel_pyramid_pb_rule(state: CollectionState, player: int) -> bool:
-    return (can_swingshot(state, player)
-            and can_improved_jump(state, player)
-            and can_hypnotize(state, player))
-
-
-def grelbin_find_angela_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return True
-
-    return can_hypnotize(state, player)
-
-
-def grelbin_mystic_more_moonstones_rule(state: CollectionState, player: int) -> bool:
-    return (can_glide(state, player)
-            and can_infiltrate(state, player))
-
-
-def grelbin_ice_plains_pb_rule(state: CollectionState, player: int) -> bool:
-    return (can_glide(state, player)
-            and can_infiltrate(state, player))
-
-
-def grelbin_underwater_tunnel_pb_rule(state: CollectionState, player: int) -> bool:
-    return can_hypnotize(state, player)
-
-
-def grelbin_yeti_cave_pb_rule(state: CollectionState, player: int) -> bool:
-    return (can_glide(state, player)
-            and can_infiltrate(state, player)
-            and can_hypnotize(state, player))
-
-
-def yeedil_defeat_mutated_protopet_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_HARD:
-        return can_infiltrate(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_MEDIUM:
-        return (can_hypnotize(state, player)
-                and can_swingshot(state, player)
-                and can_infiltrate(state, player))
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return (can_hypnotize(state, player)
-                and can_swingshot(state, player)
-                and can_infiltrate(state, player)
-                and can_dynamo(state, player)
-                and can_improved_jump(state, player))
-
-    return (can_hypnotize(state, player)
-            and can_swingshot(state, player)
-            and can_infiltrate(state, player)
-            and can_dynamo(state, player)
-            and can_improved_jump(state, player)
-            and can_electrolyze(state, player))
-
-
-def yeedil_bridge_grindrail_pb_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return True
-
-    return can_grind(state, player)
-
-
-def yeedil_tractor_pillar_pb_rule(state: CollectionState, player: int) -> bool:
-    options = get_options(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_HARD:
-        return can_infiltrate(state, player)
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_MEDIUM:
-        return (can_hypnotize(state, player)
-                and can_swingshot(state, player)
-                and can_infiltrate(state, player))
-
-    if options.first_person_mode_glitch_in_logic >= FIRST_PERSON_EASY:
-        return (can_hypnotize(state, player)
-                and can_swingshot(state, player)
-                and can_infiltrate(state, player)
-                and can_dynamo(state, player)
-                and can_improved_jump(state, player)
-                and can_tractor(state, player)
-                and can_grind(state, player))
-
-    return (can_hypnotize(state, player)
-            and can_swingshot(state, player)
-            and can_infiltrate(state, player)
-            and can_dynamo(state, player)
-            and can_improved_jump(state, player)
-            and can_electrolyze(state, player)
-            and can_tractor(state, player)
-            and can_grind(state, player))
+function aranos_under_ship_pb()
+  local fpg = get_first_person_setting()
+  if fpg >= 2 then
+    return has("heli-pack")
+  end
+  return has("gravityboots") and has("heli-pack")
+end
+
+function aranos_omniwrench_12000()
+  local fpg = get_first_person_setting()
+  if fpg >= 2 then
+    return true
+  end
+  return has("gravityboots")
+end
+
+function snivelak_rescue_angelak()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    return has("swingshot")
+  end
+  return has("swingshot") and has("grindboots") and has("gravityboots") and has("dynamo")
+end
+
+function snivelak_dynamo_pb()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    return has("swingshot")
+  end
+  return has("swingshot") and has("grindboots") and has("gravityboots") and has("dynamo") and has("heli-pack")
+end
+
+function snivelak_swingshot_tower_nt()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    return has("swingshot")
+  end
+  return has("swingshot") and has("heli-pack")
+end
+
+function smolg_balloon_transmission()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    return has("electrolyzer")
+  end
+  return can_improved_jump() and has("dynamo") and has("electrolyzer")
+end
+
+function smolg_distribution_facility_end()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    return has("electrolyzer")
+  end
+  return can_improved_jump() and has("dynamo") and has("electrolyzer") and has("grindboots") and has("infiltrator")
+end
+
+function smolg_mutant_crab()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    if not has("levitator") then
+      return false
+    end
+    return has("swingshot") or has("electrolyzer")
+  end
+  return has("swingshot") and has("levitator")
+end
+
+function smolg_floating_platform_pb()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    if not has("levitator") then
+      return false
+    end
+    return has("swingshot") or has("electrolyzer")
+  end
+  return has("swingshot") and has("levitator")
+end
+
+function smolg_warehouse_pb()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    return true
+  end
+  return can_improved_jump() or has("dynamo")
+end
+
+function grelbin_find_angela()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    return true
+  end
+  return has("hypnomatic")
+end
+
+function yeedil_defeat_mutated_protopet()
+  local fpg = get_first_person_setting()
+  if fpg >= 3 then
+    return has("infiltrator")
+  end
+  if fpg >= 2 then
+    return has("hypnomatic") and has("swingshot") and has("infiltrator")
+  end
+  if fpg >= 1 then
+    return has("hypnomatic") and has("swingshot") and has("infiltrator") and has("dynamo") and can_improved_jump()
+  end
+  return has("hypnomatic") and has("swingshot") and has("infiltrator") and has("dynamo") and can_improved_jump() and has("electrolyzer")
+end
+
+function yeedil_bridge_grindrail_pb()
+  local fpg = get_first_person_setting()
+  if fpg >= 1 then
+    return true
+  end
+  return has("grindboots")
+end
+
+
+function yeedil_tractor_pillar_pb()
+  local fpg = get_first_person_setting()
+  if fpg >= 3 then
+    return has("infiltrator")
+  end
+  if fpg >= 2 then
+    return has("hypnomatic") and has("swingshot") and has("infiltrator")
+  end
+  if fpg >= 1 then
+    return has("hypnomatic") and has("swingshot") and has("infiltrator") and has("dynamo") and can_improved_jump() and has("tractorbeam") and has("grindboots")
+  end
+  return has("hypnomatic") and has("swingshot") and has("infiltrator") and has("dynamo") and can_improved_jump() and has("electrolyzer") and has("tractorbeam") and has("grindboots")
+end
