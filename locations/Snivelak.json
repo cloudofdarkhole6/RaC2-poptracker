@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Dynamo Platforms",
-        "access_rules": ["swingshot,grindboots,gravityboots,dynamo,heli-pack"],
+        "access_rules": ["$snivelak_dynamo_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -23,7 +23,7 @@
       },
       {
         "name": "Swingshot Tower",
-        "access_rules": ["swingshot,heli-pack"],
+        "access_rules": ["$snivelak_swingshot_tower_nt"],
         "sections": [
           {
             "name": "Nanotech Boost"
@@ -41,7 +41,7 @@
     "sections": [
       {
         "name": "Rescue Angela",
-        "access_rules": ["swingshot,grindboots,gravityboots,dynamo"]
+        "access_rules": ["$snivelak_rescue_angelak"]
       }
     ],
     "map_locations": [

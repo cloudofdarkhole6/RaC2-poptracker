@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Bridge Grindrail",
-        "access_rules": ["grindboots"],
+        "access_rules": ["$yeedil_bridge_grindrail_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -23,7 +23,7 @@
       },
       {
         "name": "Tractor Pillar",
-        "access_rules": ["$can_improved_jump,swingshot,hypnomatic,dynamo,infiltrator,electrolyzer,tractorbeam,grindboots"],
+        "access_rules": ["$yeedil_tractor_pillar_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -39,7 +39,7 @@
       },
       {
         "name": "Protopet",
-        "access_rules": ["$can_improved_jump,swingshot,hypnomatic,dynamo,infiltrator,electrolyzer"],
+        "access_rules": ["$yeedil_defeat_mutated_protopet"],
         "sections": [
           {
             "name": "Victory"

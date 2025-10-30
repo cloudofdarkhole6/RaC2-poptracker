@@ -37,7 +37,7 @@
       },
       {
         "name": "Timed Dynamo",
-        "access_rules": ["$can_improved_jump,thermanator,dynamo"],
+        "access_rules": ["$notak_timed_dynamo"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -68,7 +68,7 @@
       },
       {
         "name": "Top of Pier",
-        "access_rules": ["$can_improved_jump,thermanator"],
+        "access_rules": ["$notak_top_pier_telescreen"],
         "sections": [
           {
             "name": "Telescreen"
@@ -86,7 +86,7 @@
     "sections": [
       {
         "name": "Worker Bots",
-        "access_rules": ["heli-pack,thermanator"]
+        "access_rules": ["$notak_worker_bots"]
       }
     ],
     "map_locations": [

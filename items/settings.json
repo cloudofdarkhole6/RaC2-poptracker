@@ -58,5 +58,37 @@
         "name": "Gadgetron vendor on"
       }
     ]
+  },
+  {
+    "name": "First Person Glitch",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/fpg_off.png",
+        "codes": "first_person_setting,first_person_glitch_off",
+        "inherit_codes": false,
+        "name": "First Person Glitch logic - off"
+      },
+      {
+        "img": "images/settings/fpg_easy.png",
+        "codes": "first_person_setting,first_person_glitch_easy",
+        "inherit_codes": false,
+        "name": "First Person Glitch logic - easy"
+      },
+      {
+        "img": "images/settings/fpg_medium.png",
+        "codes": "first_person_setting,first_person_glitch_medium",
+        "inherit_codes": false,
+        "name": "First Person Glitch logic - medium"
+      },
+      {
+        "img": "images/settings/fpg_hard.png",
+        "codes": "first_person_setting,first_person_glitch_hard",
+        "inherit_codes": false,
+        "name": "First Person Glitch logic - hard"
+      }
+    ]
   }
 ]

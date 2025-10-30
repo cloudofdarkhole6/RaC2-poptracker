@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Spiderbot Alley",
-        "access_rules": ["levitator,spiderbot"],
+        "access_rules": ["$boldan_spiderbot_alley_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -23,7 +23,7 @@
       },
       {
         "name": "Floating Platform",
-        "access_rules": ["levitator,gravityboots"],
+        "access_rules": ["$boldan_floating_platform"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -39,7 +39,7 @@
       },
       {
         "name": "Upper Dome",
-        "access_rules": ["levitator,gravityboots,swingshot"],
+        "access_rules": ["$boldan_find_fizzwidget"],
         "sections": [
           {
             "name": "Find Fizzwidget"
@@ -58,7 +58,7 @@
       },
       {
         "name": "Fountain",
-        "access_rules": ["levitator"],
+        "access_rules": ["$boldan_fountain_nt"],
         "sections": [
           {
             "name": "Nanotech Boost"

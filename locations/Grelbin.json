@@ -73,7 +73,7 @@
     "sections": [
       {
         "name": "Find Angela",
-        "access_rules": ["hypnomatic"]
+        "access_rules": ["$grelbin_find_angela"]
       }
     ],
     "map_locations": [

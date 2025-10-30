@@ -7,6 +7,7 @@
     "children": [
       {
         "name": "Plumber",
+        "access_rules": ["$aranos_plumber"],
         "sections": [
           {
             "name": "Qwark Statuette"
@@ -25,7 +26,7 @@
         "sections": [
           {
             "name": "Platinum Bolt",
-            "access_rules": ["heli-pack"]
+            "access_rules": ["$aranos_under_ship_pb"]
           }
         ],
         "map_locations": [
@@ -40,7 +41,8 @@
         "name": "OmniWrench 12000",
         "sections": [
           {
-            "name": "Wrench pickup"
+            "name": "Wrench pickup",
+            "access_rules": ["$aranos_omniwrench_12000"]
           }
         ],
         "map_locations": [
@@ -54,7 +56,8 @@
     ],
     "sections": [
       {
-        "name": "Control Room"
+        "name": "Control Room",
+        "access_rules": ["$aranos_control_room"]
       }
     ],
     "map_locations": [

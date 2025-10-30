@@ -56,7 +56,7 @@
       },
       {
         "name": "Photo Booth",
-        "access_rules": ["electrolyzer"],
+        "access_rules": ["$maktar_photo_booth"],
         "sections": [
           {
             "name": "Photo Booth"

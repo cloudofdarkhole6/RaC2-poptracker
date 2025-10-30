@@ -23,7 +23,7 @@
       },
       {
         "name": "Underground Mine",
-        "access_rules": ["thermanator"],
+        "access_rules": ["$tabora_underground_mines_glider"],
         "sections": [
           {
             "name": "Glider"
@@ -39,7 +39,7 @@
       },
       {
         "name": "Canyon Glide",
-        "access_rules": ["thermanator,glider"],
+        "access_rules": ["$tabora_canyon_glide_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -70,7 +70,7 @@
       },
       {
         "name": "Canyon Glide Pillar",
-        "access_rules": ["thermanator,glider"],
+        "access_rules": ["$tabora_canyon_glide_pillar_nt"],
         "sections": [
           {
             "name": "Nanotech Boost"

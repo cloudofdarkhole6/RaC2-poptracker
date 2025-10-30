@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.4.0",
+			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.2.1/RaC2-poptracker_0.4.0.zip",
+			"sha256": "4f30dd5e1d0abb4818348590ae6ca4e1bfdeaf1bef70c1b461132d033593c66c",
+			"changelog": [
+				"Updated logic for Damosel",
+				"Adds tracking for weapons"
+			]
+		},
+		{
 			"package_version": "0.2.1",
 			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.2.1/RaC2-poptracker_0.2.1.zip",
 			"sha256": "8863aa8e1441e48e45d43efeeeb062fbebdbaef26091306024dbd3350b697be6",

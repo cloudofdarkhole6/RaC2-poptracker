@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Inventor",
-        "access_rules": ["swingshot"],
+        "access_rules": ["$barlow_inventor"],
         "sections": [
           {
             "name": "Thermanator"
@@ -23,7 +23,7 @@
       },
       {
         "name": "Hoverbike Race",
-        "access_rules": ["$can_improved_jump,electrolyzer"],
+        "access_rules": ["$barlow_hoverbike_race"],
         "sections": [
           {
             "name": "Hoverbike Race Transmission"

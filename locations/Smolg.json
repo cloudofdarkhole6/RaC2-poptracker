@@ -7,7 +7,7 @@
     "children": [
       {
         "name": "Distribution Facility End",
-        "access_rules": ["$can_improved_jump,dynamo,electrolyzer,infiltrator,grindboots"],
+        "access_rules": ["$smolg_distribution_facility_end"],
         "sections": [
           {
             "name": "Hypnomatic Part"
@@ -23,7 +23,7 @@
       },
       {
         "name": "Floating Platform",
-        "access_rules": ["swingshot,levitator"],
+        "access_rules": ["$smolg_floating_platform_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -39,7 +39,7 @@
       },
       {
         "name": "Warehouse",
-        "access_rules": ["$can_improved_jump,dynamo"],
+        "access_rules": ["$smolg_warehouse_pb"],
         "sections": [
           {
             "name": "Platinum Bolt"
@@ -55,7 +55,7 @@
       },
       {
         "name": "Balloon Transmission",
-        "access_rules": ["$can_improved_jump,dynamo,electrolyzer"],
+        "access_rules": ["$smolg_balloon_transmission"],
         "sections": [
           {
             "name": "Balloon Transmission"
@@ -73,7 +73,7 @@
     "sections": [
       {
         "name": "Mutant Crab",
-        "access_rules": ["swingshot,levitator"]
+        "access_rules": ["$smolg_mutant_crab"]
       }
     ],
     "map_locations": [
