@@ -147,7 +147,7 @@ function dobbo_spiderbot_room_pb()
   if fpg >= 1 then
     return has("swingshot")
   end
-  return has("swingshot") and has("dynamo")
+  return has("swingshot") and has("dynamo") and has("spiderbot")
 end
 
 
@@ -404,7 +404,7 @@ function smolg_warehouse_pb()
   if fpg >= 1 then
     return true
   end
-  return can_improved_jump() or has("dynamo")
+  return can_improved_jump() and has("dynamo")
 end
 
 function grelbin_find_angela()
