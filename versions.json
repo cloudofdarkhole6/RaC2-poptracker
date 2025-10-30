@@ -3,10 +3,9 @@
 		{
 			"package_version": "0.4.0",
 			"download_url": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/download/0.4.0/RaC2-poptracker_0.4.0.zip",
-			"sha256": "4f30dd5e1d0abb4818348590ae6ca4e1bfdeaf1bef70c1b461132d033593c66c",
+			"sha256": "5c2d072e0bf7adf76685f1619e9d6b8083a545ab30c890b9180c4ef48c17021f",
 			"changelog": [
-				"Updated logic for Damosel",
-				"Adds tracking for weapons"
+				"Updated logic for Dobbo Spiderbot and Smolg Warehouse PBs"
 			]
 		},
 		{
